@@ -8,7 +8,7 @@ Complete these steps before the 48-hour deadline.
 
 | Field | Value |
 |-------|--------|
-| GitHub repo | _paste repo URL after push_ |
+| GitHub repo | https://github.com/viren-cognitivTrust/unriddle-discharge-agent (local commit ready; no further push until you choose) |
 | Video demo (Loom 3–5 min) | _[LOOM LINK — record later]_ |
 | Part 2 attempted? | Yes — correction memory + simulated doctor + `outputs/evaluation/learning_report.json` |
 | Notes | Part 1 complete; 53 synthetic patients batch-run; video pending |
