@@ -18,6 +18,11 @@ This is **not** a PDF → LLM → summary pipeline. It is a **multi-agent clinic
 ```bash
 pip install -r requirements.txt
 cp .env.example .env   # add ANTHROPIC_API_KEY optional
+
+# From project root (required on Windows for CLI/scripts):
+# PowerShell:  $env:PYTHONPATH='.'
+# bash:        export PYTHONPATH=.
+
 streamlit run app/ui/streamlit_app.py
 ```
 
@@ -34,6 +39,8 @@ python scripts/evaluate_summary_quality.py mock 15
 
 ## Quick Start
 
+Run all commands from the **project root** (`unriddle-tech-assignment/`).
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -46,8 +53,13 @@ winget install UB-Mannheim.TesseractOCR
 cp .env.example .env
 # Edit .env with your OpenAI/Anthropic/Gemini keys
 
-# Run Streamlit UI (from project root)
+# Windows: set PYTHONPATH so `app.*` imports resolve in CLI/scripts
+# PowerShell:
+$env:PYTHONPATH='.'
+
+# Run Streamlit UI
 streamlit run app/ui/streamlit_app.py
+# Open http://localhost:8501 (port shown in terminal)
 
 # Windows shortcut
 run_streamlit.bat
@@ -55,6 +67,20 @@ run_streamlit.bat
 # Or via Docker
 docker compose up
 ```
+
+### Streamlit UI — three ways to load PDFs
+
+| Method | Steps |
+|--------|--------|
+| **Upload** | Main area → drag/drop or **Browse files** (multi-PDF OK) → **Run Agent** |
+| **Demo fixture** | Sidebar → pick scenario (e.g. `complete_1`) → **Load Sample PDFs** → **Run Agent** |
+| **Reviewer scan** | Copy PDF to `fixtures/patient_real/` → sidebar **Load Reviewer Sample** → **Run Agent** |
+
+**Upload staging:** PDFs are written to `data/uploads/<pdf_stem>/` (persistent path avoids Windows file-lock errors during OCR). `patient_id` in outputs/traces matches that folder name (e.g. `patient_2_1` for `patient 2 (1).pdf`).
+
+**OCR:** If PyMuPDF/pdfplumber extract no text, Tesseract runs automatically. Long scans (71 pages) show live progress: `OCR <filename> — page X/Y`. Expect ~7–10 minutes for the reviewer chart.
+
+**LLM provider:** Choose in the sidebar (OpenAI, Anthropic, Gemini, etc.). If a provider key is missing, the agent falls back to mock for local runs.
 
 ### Reviewer sample: `patient 2 (1).pdf` (71-page scanned chart)
 
@@ -64,8 +90,9 @@ docker compose up
    mkdir fixtures\patient_real
    copy "C:\Users\Viren\Downloads\patient 2 (1).pdf" fixtures\patient_real\
    ```
-3. **Streamlit:** Sidebar → **Load Reviewer Sample** → **Run Agent** (OCR progress shown during load)
-4. **CLI smoke test:**
+3. **Streamlit:** Sidebar → **Load Reviewer Sample** → **Run Agent** (OCR progress shown page-by-page)
+4. **Or upload** the same file via the main file uploader → **Run Agent**
+5. **CLI smoke test:**
    ```powershell
    $env:PYTHONPATH='.'
    python scripts/run_real_patient_test.py
@@ -125,8 +152,9 @@ app/
   memory/       correction_memory (SQLite)
   evaluation/   simulated_doctor, metrics, evaluation_runner
   observability/ trace_writer
-  ui/           streamlit_app.py
+  ui/           streamlit_app.py, upload_utils.py (persistent upload staging)
 config/config.yaml
+data/uploads/   staged Streamlit uploads (gitignored)
 tests/          unit, integration, e2e, safety, failure, performance, regression
 fixtures/       patient PDF folders (user-provided)
 outputs/        generated JSON artifacts
@@ -160,11 +188,13 @@ Traces: `traces/{patient_id}_{timestamp}.json` and `.txt`
 ## Testing
 
 ```bash
+# From project root; on Windows first: $env:PYTHONPATH='.'
 pytest tests/ -v
-pytest tests/unit/          # Unit tests (no PDFs required)
-pytest tests/integration/   # Integration tests
-pytest tests/e2e/           # End-to-end with generated PDFs
-pytest tests/safety/        # Safety rule enforcement
+pytest tests/ -q -m "not slow"   # fast suite (~72 tests)
+pytest tests/unit/               # Unit tests (no PDFs required)
+pytest tests/integration/        # Integration tests
+pytest tests/e2e/                # End-to-end with generated PDFs
+pytest tests/safety/             # Safety rule enforcement
 ```
 
 ### Feature Test Suite (53 scenarios, 285 PDFs)
@@ -211,7 +241,7 @@ Report: `outputs/summary_quality_report.json` (higher = clearer prose while pres
 | mock | 53/53 | 285 | 100% | ~90/100 |
 | anthropic (`claude-haiku-4-5-20251001`) | 50/50 | 273 | 100% | run locally |
 
-**pytest:** 68 passed, 1 skipped — last run 2026-06-03.
+**pytest:** 72 passed (`-m "not slow"`) — last run 2026-06-03.
 
 **Scenario categories exercised:**
 
@@ -229,17 +259,15 @@ Report: `outputs/summary_quality_report.json` (higher = clearer prose while pres
 
 **Per-scenario assertions include:** draft generation with `is_final=false`, section status (Present/Missing/Conflict/Pending), evidence store minimums, conflict/pending/med-change detection, safety flag categories, JSON artifact outputs, agent trace steps, and **minimum narrative quality score**.
 
-**pytest:** 68 passed, 1 skipped (live Gemini quota), 7 warnings — last run 2026-06-03.
-
 #### Browser E2E (Streamlit UI)
 
 Manual verification via Streamlit at `http://localhost:8501`:
 
-1. Sidebar → select fixture scenario (50 available)
-2. **Load Sample PDFs** → **Run Agent**
-3. Verify tabs: Discharge Draft, Safety & Review, Medications, Conflicts, Evidence, Agent Trace, Download
+1. Sidebar → select fixture scenario (53 available) **or** upload PDFs in the main uploader
+2. **Load Sample PDFs** (fixtures) or skip if uploaded → **Run Agent**
+3. Verify tabs: **Clinical Narrative**, **Before / After**, **Sections**, **Safety**, **Medications**, **Evidence**, **Agent Trace**, **Download**
 
-**Verified scenarios:** `complete_1` (full draft, med reconciliation, pending culture, 7-step trace, ZIP download). UI shows metrics row, color-coded section statuses, clinician review queue, and artifact path under `outputs/{patient_id}/`.
+**Verified scenarios:** `complete_1`, `complete_2` (full draft, med reconciliation, pending culture, narrative synthesis, ZIP download). UI shows metrics row, color-coded section statuses, clinician review queue, and artifact path under `outputs/{patient_id}/`.
 
 ## Deployment
 
@@ -255,8 +283,11 @@ docker compose up --build
 - **Evaluation Runner**: Train/val/test splits with reward metrics
 
 ```bash
+# Windows: $env:PYTHONPATH='.'
 python -c "from app.evaluation.evaluation_runner import EvaluationRunner; EvaluationRunner().run_full_evaluation()"
 ```
+
+Report: `outputs/evaluation/learning_report.json`
 
 ## Assignment Compliance Matrix
 
@@ -293,6 +324,6 @@ Assignment project — internal use.
 
 - **Assignment write-up:** [SUBMISSION.md](SUBMISSION.md) — loop design, safety guardrails, Part 2, limitations  
 - **Submit checklist:** [SUBMIT.md](SUBMIT.md) — form link, video placeholder, verification commands  
-- **Batch all patients:** `python scripts/run_submission_batch.py mock` → `outputs/submission_manifest.json`  
+- **Batch all patients:** `$env:PYTHONPATH='.'; python scripts/run_submission_batch.py mock` → `outputs/submission_manifest.json` (53/53)  
 - **Form:** https://docs.google.com/forms/d/e/1FAIpQLSfZPmXIi8AdfBx2lDAw3bObv75ikfGrU-33XBSaLP19mXuM3Q/viewform  
 - **Video:** record 3–5 min Loom, paste link into SUBMISSION.md + form (deferred)

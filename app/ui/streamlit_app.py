@@ -55,7 +55,10 @@ st.markdown(
     .status-pending { color: #d97706; font-weight: 600; }
     .status-conflict { color: #7c3aed; font-weight: 600; }
     div[data-testid="stSidebar"] { background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%); }
-    .compare-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; }
+    .compare-box {
+        background: #f8fafc; color: #0f172a; border: 1px solid #e2e8f0;
+        border-radius: 8px; padding: 1rem;
+    }
 </style>
 """,
     unsafe_allow_html=True,
