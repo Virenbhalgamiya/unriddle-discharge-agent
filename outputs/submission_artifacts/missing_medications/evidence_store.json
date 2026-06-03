@@ -1,0 +1,114 @@
+{
+  "evidence": [
+    {
+      "id": "b011e419-2cf2-4e69-8b48-65fb1d8391a3",
+      "value": "John Doe",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026600Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "20ff97ab-69c0-469b-9c51-1aa3fc895903",
+      "value": "01/15/1970",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026612Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "88f11395-331e-44e4-8529-dfae3399f5ad",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026629Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "42960d87-4dc8-4d39-a691-842b43a62718",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026638Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "231671f4-c409-452d-9eef-0c2043e9a4a5",
+      "value": "Pneumonia",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026647Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "3c391d52-8324-4970-b3d4-a4b9859f767e",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026658Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "fa8fcb51-a422-47f2-9975-9f52f3b97e1b",
+      "value": "Patient treated with antibiotics and improved.",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026669Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "d555a7a0-6151-46e6-9bd2-51a22d828ba4",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026681Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "7667c911-3e68-4736-bd61-d7ae26185b29",
+      "value": "Penicillin",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026714Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "7910bb3f-8fba-4893-acdc-831ae4c291c6",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026731Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b71c5aab-c006-4f54-9b05-edea6bb1a2cb",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.026744Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    }
+  ]
+}

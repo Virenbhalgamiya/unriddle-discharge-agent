@@ -1,0 +1,269 @@
+{
+  "banner": "DRAFT FOR CLINICIAN REVIEW \u2014 NOT A FINAL CLINICAL DOCUMENT",
+  "is_final": false,
+  "patient_id": "missing_demographics",
+  "generated_at": "2026-06-03T15:33:48.081884Z",
+  "sections": [
+    {
+      "name": "Patient Demographics",
+      "status": "Missing",
+      "content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Admission Date",
+      "status": "Present",
+      "content": "03/01/2026",
+      "raw_content": "03/01/2026",
+      "evidence_ids": [
+        "23e8b3ba-354e-43d5-a67d-e7632df38f56"
+      ]
+    },
+    {
+      "name": "Discharge Date",
+      "status": "Present",
+      "content": "03/05/2026",
+      "raw_content": "03/05/2026",
+      "evidence_ids": [
+        "351318e4-cc3d-4dfa-90e0-a2fb476a5bac"
+      ]
+    },
+    {
+      "name": "Principal Diagnosis",
+      "status": "Present",
+      "content": "Principal diagnosis: Pneumonia.\n\n_Note: Apply formatting improvement for Principal Diagnosis_",
+      "raw_content": "Pneumonia",
+      "evidence_ids": [
+        "6e0ec071-e356-47c7-ba6b-f430b3400242"
+      ]
+    },
+    {
+      "name": "Secondary Diagnoses",
+      "status": "Present",
+      "content": "Secondary diagnoses: Hypertension.",
+      "raw_content": "Hypertension",
+      "evidence_ids": [
+        "b07cedb3-ac25-4603-85f5-8882586f7707"
+      ]
+    },
+    {
+      "name": "Hospital Course",
+      "status": "Present",
+      "content": "The patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_",
+      "raw_content": "Patient treated with antibiotics and improved.",
+      "evidence_ids": [
+        "2d4d5e3b-706e-4d3f-901c-c557740d8ae2"
+      ]
+    },
+    {
+      "name": "Procedures",
+      "status": "Present",
+      "content": "Procedures during this admission included Chest X-ray.",
+      "raw_content": "Chest X-ray",
+      "evidence_ids": [
+        "667070c1-cbea-487a-9d91-75aa46006189"
+      ]
+    },
+    {
+      "name": "Lab Results",
+      "status": "Missing",
+      "content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Discharge Medications",
+      "status": "Present",
+      "content": "Discharge medication regimen:\n- Aspirin 81mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_",
+      "raw_content": "Aspirin 81mg PO daily",
+      "evidence_ids": [
+        "51162331-1740-4ac1-9bbd-e4b055ebaed9"
+      ]
+    },
+    {
+      "name": "Allergies",
+      "status": "Present",
+      "content": "Documented allergies: Penicillin.",
+      "raw_content": "Penicillin",
+      "evidence_ids": [
+        "e914b6a3-dda7-4ccd-97fc-669d9c8523af"
+      ]
+    },
+    {
+      "name": "Follow-up Instructions",
+      "status": "Present",
+      "content": "Recommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_",
+      "raw_content": "Primary care in 1 week",
+      "evidence_ids": [
+        "1651702f-0a64-4804-8aa0-9d05e5acaa4e"
+      ]
+    },
+    {
+      "name": "Discharge Condition",
+      "status": "Present",
+      "content": "Patient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_",
+      "raw_content": "Stable",
+      "evidence_ids": [
+        "b5e8dbb7-d952-4f9d-a753-b048495b9821"
+      ]
+    },
+    {
+      "name": "Medication Changes",
+      "status": "Present",
+      "content": "- **Aspirin** (Continued): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `Aspirin 81mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_",
+      "raw_content": "Aspirin: Continued \u2014 Reason Not Documented",
+      "evidence_ids": []
+    },
+    {
+      "name": "Safety Flags",
+      "status": "Present",
+      "content": "patient_demographics: MISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n_Note: Prefer clinician-style formatting for Safety Flags_",
+      "raw_content": "patient_demographics: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Conflicts",
+      "status": "Missing",
+      "content": "No conflicts detected",
+      "raw_content": "No conflicts detected",
+      "evidence_ids": []
+    },
+    {
+      "name": "Clinician Review Items",
+      "status": "Present",
+      "content": "Required field 'patient_demographics' not found in source documents.\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+      "raw_content": "Required field 'patient_demographics' not found in source documents.",
+      "evidence_ids": []
+    },
+    {
+      "name": "Pending Results",
+      "status": "Missing",
+      "content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    }
+  ],
+  "narrative_summary": "# Discharge Summary Draft\n\n## Executive Summary\nThe patient was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Pneumonia. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n## Patient Demographics\nMISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n## Admission Date\n03/01/2026\n\n## Discharge Date\n03/05/2026\n\n## Principal Diagnosis\nPrincipal diagnosis: Pneumonia.\n\n_Note: Apply formatting improvement for Principal Diagnosis_\n\n## Secondary Diagnoses\nSecondary diagnoses: Hypertension.\n\n## Hospital Course\nThe patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_\n\n## Procedures\nProcedures during this admission included Chest X-ray.\n\n## Lab Results\nMISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n## Discharge Medications\nDischarge medication regimen:\n- Aspirin 81mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_\n\n## Allergies\nDocumented allergies: Penicillin.\n\n## Follow-up Instructions\nRecommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_\n\n## Discharge Condition\nPatient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_\n\n## Pending Results\nMISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n## Medication Changes\n- **Aspirin** (Continued): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `Aspirin 81mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_\n\n## Items Requiring Clinician Review\nRequired field 'patient_demographics' not found in source documents.\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+  "executive_summary": "The patient was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Pneumonia. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.",
+  "quality_score": 92.8,
+  "safety_flags_summary": [
+    "patient_demographics: MISSING \u2013 CLINICIAN REVIEW REQUIRED"
+  ],
+  "conflicts_summary": [],
+  "clinician_review_summary": [
+    "Required field 'patient_demographics' not found in source documents."
+  ],
+  "evidence_references": [
+    {
+      "id": "23e8b3ba-354e-43d5-a67d-e7632df38f56",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074127Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "351318e4-cc3d-4dfa-90e0-a2fb476a5bac",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074139Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "6e0ec071-e356-47c7-ba6b-f430b3400242",
+      "value": "Pneumonia",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074149Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b07cedb3-ac25-4603-85f5-8882586f7707",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074158Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "2d4d5e3b-706e-4d3f-901c-c557740d8ae2",
+      "value": "Patient treated with antibiotics and improved.",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074168Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "667070c1-cbea-487a-9d91-75aa46006189",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074179Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "e914b6a3-dda7-4ccd-97fc-669d9c8523af",
+      "value": "Penicillin",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074190Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "1651702f-0a64-4804-8aa0-9d05e5acaa4e",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074203Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b5e8dbb7-d952-4f9d-a753-b048495b9821",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074215Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Admission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "7eca5d6b-5579-45b5-a70d-0082eb5b0aaa",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074362Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "51162331-1740-4ac1-9bbd-e4b055ebaed9",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:48.074456Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+    }
+  ]
+}

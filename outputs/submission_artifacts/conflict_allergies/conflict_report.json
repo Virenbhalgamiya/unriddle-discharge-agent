@@ -1,0 +1,22 @@
+{
+  "conflicts": [
+    {
+      "field_name": "allergies",
+      "message": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "values": [
+        {
+          "value": "Penicillin",
+          "source_document": "admission_note.pdf",
+          "page_number": 1,
+          "evidence_id": "0cd969ab-944d-4ba5-bf75-a0b06428d12e"
+        },
+        {
+          "value": "Sulfa",
+          "source_document": "progress_note_1.pdf",
+          "page_number": 1,
+          "evidence_id": "82db017c-79ff-4092-9e12-184e34b508cd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "patient_id": "med_added",
+  "changes": [
+    {
+      "medication_name": "Aspirin",
+      "change_type": "Continued",
+      "admission_value": "Aspirin 81mg PO daily",
+      "discharge_value": "Aspirin 81mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "db33a6e7-7747-4c75-8bc1-2f9151caab59",
+        "39124173-0972-4dda-a4ed-1c4a53156482"
+      ]
+    },
+    {
+      "medication_name": "Lisinopril",
+      "change_type": "Continued",
+      "admission_value": "Lisinopril 10mg PO daily",
+      "discharge_value": "Lisinopril 10mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "4df1826c-0632-4225-a340-ea43ba498e4b",
+        "d8ea4cf4-ade1-4064-a9f2-f1b3ea2f4732"
+      ]
+    },
+    {
+      "medication_name": "Metformin",
+      "change_type": "Continued",
+      "admission_value": "Metformin 500mg PO daily",
+      "discharge_value": "Metformin 500mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "54399288-1276-4180-8c8a-51ac4cf2088b",
+        "099bdb2f-7219-467f-96c8-5b4caa87b4f9"
+      ]
+    },
+    {
+      "medication_name": "Warfarin",
+      "change_type": "Added",
+      "admission_value": null,
+      "discharge_value": "Warfarin 5mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "44cf5e05-3b0a-4522-b12b-f55fcd78bb1c"
+      ]
+    }
+  ],
+  "admission_count": 3,
+  "discharge_count": 4,
+  "undocumented_changes": 1
+}

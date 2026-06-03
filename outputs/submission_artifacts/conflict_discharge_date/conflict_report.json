@@ -1,0 +1,22 @@
+{
+  "conflicts": [
+    {
+      "field_name": "discharge_date",
+      "message": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "values": [
+        {
+          "value": "03/05/2026",
+          "source_document": "admission_note.pdf",
+          "page_number": 1,
+          "evidence_id": "73dac6ab-c67c-4563-8615-ec949de405f7"
+        },
+        {
+          "value": "03/10/2026",
+          "source_document": "progress_note_1.pdf",
+          "page_number": 1,
+          "evidence_id": "164eeec6-fdf9-4c6d-b69f-4211b826d933"
+        }
+      ]
+    }
+  ]
+}

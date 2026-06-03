@@ -1,0 +1,39 @@
+{
+  "flags": [
+    {
+      "id": "e3bba9b2-37df-4c0e-9de9-ff449a4749a7",
+      "category": "medication_discrepancy",
+      "message": "lisinopril Removed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "4db101d2-a210-41a0-a163-a74d4c908da7",
+      "category": "medication_discrepancy",
+      "message": "warfarin Added: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "8cc3f996-e485-49f8-b445-606f13134531",
+      "category": "missing_data",
+      "message": "allergies: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    },
+    {
+      "id": "8e670ab7-6768-47f5-8ee7-109ff35a7aa1",
+      "category": "conflict",
+      "message": "principal_diagnosis: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "conflict_detector"
+    },
+    {
+      "id": "d1fe17c7-887d-474c-8578-e121511a10ab",
+      "category": "pending_result",
+      "message": "PENDING: Culture pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

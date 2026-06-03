@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "b2963714-9a6d-4fde-9ae6-e017480ca4f0",
+      "reason": "Medication discrepancy",
+      "details": "Route Changed for morphine: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.788506Z"
+    }
+  ]
+}

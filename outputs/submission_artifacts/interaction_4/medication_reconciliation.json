@@ -1,0 +1,32 @@
+{
+  "patient_id": "interaction_4",
+  "changes": [
+    {
+      "medication_name": "Aspirin",
+      "change_type": "Continued",
+      "admission_value": "Aspirin 81mg PO daily",
+      "discharge_value": "Aspirin 81mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "6958f669-5faa-414e-91b3-798a46a5e119",
+        "5c0984d9-7621-4a67-833f-ca31d671db8f"
+      ]
+    },
+    {
+      "medication_name": "Warfarin",
+      "change_type": "Continued",
+      "admission_value": "Warfarin 5mg PO daily",
+      "discharge_value": "Warfarin 5mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "35b02bef-c9ae-4170-8091-42ff70d4f8f6",
+        "5589b3aa-2249-4a8e-8b60-d9b805b3e81e"
+      ]
+    }
+  ],
+  "admission_count": 2,
+  "discharge_count": 2,
+  "undocumented_changes": 0
+}

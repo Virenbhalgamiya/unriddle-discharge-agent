@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "153f20af-c178-4a73-860c-41e2a2468928",
+      "category": "conflict",
+      "message": "allergies: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "conflict_detector"
+    }
+  ]
+}

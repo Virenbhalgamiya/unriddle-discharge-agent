@@ -1,0 +1,304 @@
+{
+  "banner": "DRAFT FOR CLINICIAN REVIEW \u2014 NOT A FINAL CLINICAL DOCUMENT",
+  "is_final": false,
+  "patient_id": "complete_with_labs_only_pending",
+  "generated_at": "2026-06-03T15:33:44.112819Z",
+  "sections": [
+    {
+      "name": "Patient Demographics",
+      "status": "Present",
+      "content": "John Doe (DOB 01/15/1970).",
+      "raw_content": "Name: John Doe; DOB: 01/15/1970",
+      "evidence_ids": [
+        "b2150482-3a70-4c4d-8def-9db6d86f1dbf",
+        "9091e111-444b-4ced-b7da-0b0e5ea75c42"
+      ]
+    },
+    {
+      "name": "Admission Date",
+      "status": "Present",
+      "content": "03/01/2026",
+      "raw_content": "03/01/2026",
+      "evidence_ids": [
+        "062f1aec-4c85-45e2-93a8-5741816a30b6"
+      ]
+    },
+    {
+      "name": "Discharge Date",
+      "status": "Present",
+      "content": "03/05/2026",
+      "raw_content": "03/05/2026",
+      "evidence_ids": [
+        "3ad47232-453c-40d9-9b72-11519b4e4637"
+      ]
+    },
+    {
+      "name": "Principal Diagnosis",
+      "status": "Present",
+      "content": "Principal diagnosis: Pneumonia.\n\n_Note: Apply formatting improvement for Principal Diagnosis_",
+      "raw_content": "Pneumonia",
+      "evidence_ids": [
+        "592f5f07-3fcf-4b82-8d78-4310433a7c99"
+      ]
+    },
+    {
+      "name": "Secondary Diagnoses",
+      "status": "Present",
+      "content": "Secondary diagnoses: Hypertension.",
+      "raw_content": "Hypertension",
+      "evidence_ids": [
+        "b1a136a3-dd92-47ca-9b59-59f39c1bc452"
+      ]
+    },
+    {
+      "name": "Hospital Course",
+      "status": "Present",
+      "content": "The patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_",
+      "raw_content": "Patient treated with antibiotics and improved.",
+      "evidence_ids": [
+        "49893416-e391-4756-b6e1-ab9148cb0f42"
+      ]
+    },
+    {
+      "name": "Procedures",
+      "status": "Present",
+      "content": "Procedures during this admission included Chest X-ray.",
+      "raw_content": "Chest X-ray",
+      "evidence_ids": [
+        "1526e0df-74a2-413b-9cc9-987e0368202f"
+      ]
+    },
+    {
+      "name": "Lab Results",
+      "status": "Present",
+      "content": "Relevant laboratory findings:\n- Hemoglobin: 11.2 g/dL",
+      "raw_content": "Hemoglobin: 11.2 g/dL",
+      "evidence_ids": [
+        "bd4aa9fe-9f0c-43cb-ab2e-006210c7e44a"
+      ]
+    },
+    {
+      "name": "Discharge Medications",
+      "status": "Present",
+      "content": "Discharge medication regimen:\n- Aspirin 81mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_",
+      "raw_content": "Aspirin 81mg PO daily",
+      "evidence_ids": [
+        "fce2a7cb-5ac2-472c-aff4-d5bab864c957"
+      ]
+    },
+    {
+      "name": "Allergies",
+      "status": "Present",
+      "content": "Documented allergies: Penicillin.",
+      "raw_content": "Penicillin",
+      "evidence_ids": [
+        "fae845c6-12f5-411b-af72-7caba7355393"
+      ]
+    },
+    {
+      "name": "Follow-up Instructions",
+      "status": "Present",
+      "content": "Recommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_",
+      "raw_content": "Primary care in 1 week",
+      "evidence_ids": [
+        "2acedfa9-eb74-49f1-a335-a9cc87eb9bb0"
+      ]
+    },
+    {
+      "name": "Discharge Condition",
+      "status": "Present",
+      "content": "Patient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_",
+      "raw_content": "Stable",
+      "evidence_ids": [
+        "1661ffc3-813d-48bf-88f6-05fadb604e66"
+      ]
+    },
+    {
+      "name": "Medication Changes",
+      "status": "Present",
+      "content": "- **Aspirin** (Continued): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `Aspirin 81mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_",
+      "raw_content": "Aspirin: Continued \u2014 Reason Not Documented",
+      "evidence_ids": []
+    },
+    {
+      "name": "Safety Flags",
+      "status": "Present",
+      "content": "PENDING: Urinalysis pending\n\n_Note: Prefer clinician-style formatting for Safety Flags_",
+      "raw_content": "PENDING: Urinalysis pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Conflicts",
+      "status": "Missing",
+      "content": "No conflicts detected",
+      "raw_content": "No conflicts detected",
+      "evidence_ids": []
+    },
+    {
+      "name": "Clinician Review Items",
+      "status": "Present",
+      "content": "Pending result: Urinalysis pending\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+      "raw_content": "Pending result: Urinalysis pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Pending Results",
+      "status": "Pending",
+      "content": "Urinalysis pending \u2014 PENDING",
+      "raw_content": "Urinalysis pending \u2014 PENDING",
+      "evidence_ids": []
+    }
+  ],
+  "narrative_summary": "# Discharge Summary Draft\n\n## Executive Summary\nJohn Doe (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Pneumonia. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n## Patient Demographics\nJohn Doe (DOB 01/15/1970).\n\n## Admission Date\n03/01/2026\n\n## Discharge Date\n03/05/2026\n\n## Principal Diagnosis\nPrincipal diagnosis: Pneumonia.\n\n_Note: Apply formatting improvement for Principal Diagnosis_\n\n## Secondary Diagnoses\nSecondary diagnoses: Hypertension.\n\n## Hospital Course\nThe patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_\n\n## Procedures\nProcedures during this admission included Chest X-ray.\n\n## Lab Results\nRelevant laboratory findings:\n- Hemoglobin: 11.2 g/dL\n\n## Discharge Medications\nDischarge medication regimen:\n- Aspirin 81mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_\n\n## Allergies\nDocumented allergies: Penicillin.\n\n## Follow-up Instructions\nRecommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_\n\n## Discharge Condition\nPatient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_\n\n## Pending Results\nUrinalysis pending \u2014 PENDING\n\n## Medication Changes\n- **Aspirin** (Continued): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `Aspirin 81mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_\n\n## Items Requiring Clinician Review\nPending result: Urinalysis pending\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+  "executive_summary": "John Doe (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Pneumonia. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.",
+  "quality_score": 95.0,
+  "safety_flags_summary": [
+    "PENDING: Urinalysis pending"
+  ],
+  "conflicts_summary": [],
+  "clinician_review_summary": [
+    "Pending result: Urinalysis pending"
+  ],
+  "evidence_references": [
+    {
+      "id": "b2150482-3a70-4c4d-8def-9db6d86f1dbf",
+      "value": "John Doe",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101578Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "9091e111-444b-4ced-b7da-0b0e5ea75c42",
+      "value": "01/15/1970",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101592Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "062f1aec-4c85-45e2-93a8-5741816a30b6",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101608Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "3ad47232-453c-40d9-9b72-11519b4e4637",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101617Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "592f5f07-3fcf-4b82-8d78-4310433a7c99",
+      "value": "Pneumonia",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101627Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b1a136a3-dd92-47ca-9b59-59f39c1bc452",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101639Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "49893416-e391-4756-b6e1-ab9148cb0f42",
+      "value": "Patient treated with antibiotics and improved.",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101649Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "1526e0df-74a2-413b-9cc9-987e0368202f",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101661Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "fae845c6-12f5-411b-af72-7caba7355393",
+      "value": "Penicillin",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101673Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "2acedfa9-eb74-49f1-a335-a9cc87eb9bb0",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101689Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "1661ffc3-813d-48bf-88f6-05fadb604e66",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101702Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "bd4aa9fe-9f0c-43cb-ab2e-006210c7e44a",
+      "value": "Hemoglobin: 11.2 g/dL",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101840Z",
+      "confidence": 1.0,
+      "field_name": "lab_results",
+      "source_text": "Hemoglobin: 11.2 g/dL\nUrinalysis pending\n"
+    },
+    {
+      "id": "2cedda42-2224-41c8-9204-4d54a0483a5a",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101926Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "fce2a7cb-5ac2-472c-aff4-d5bab864c957",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:44.101995Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+    }
+  ]
+}

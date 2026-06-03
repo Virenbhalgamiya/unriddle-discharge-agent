@@ -1,0 +1,473 @@
+{
+  "scenarios": [
+    {
+      "name": "complete_1",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_2",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_3",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_4",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_5",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_5",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_6",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_7",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_8",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_9",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_extra_10",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "no_false_demo_conflict": true,
+        "min_evidence": 8
+      }
+    },
+    {
+      "name": "complete_with_labs_only_pending",
+      "category": "complete",
+      "pdf_count": 4,
+      "expected": {
+        "has_draft": true,
+        "has_pending": true
+      }
+    },
+    {
+      "name": "missing_diagnosis",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "diagnosis"
+      }
+    },
+    {
+      "name": "missing_allergies",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "allergies"
+      }
+    },
+    {
+      "name": "missing_discharge_date",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "discharge_date"
+      }
+    },
+    {
+      "name": "missing_demographics",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "demographics"
+      }
+    },
+    {
+      "name": "missing_follow_up",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "follow_up"
+      }
+    },
+    {
+      "name": "missing_discharge_condition",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "discharge_condition"
+      }
+    },
+    {
+      "name": "missing_medications",
+      "category": "missing",
+      "pdf_count": 3,
+      "expected": {
+        "has_missing": true,
+        "missing_field": "medications"
+      }
+    },
+    {
+      "name": "conflict_diagnosis",
+      "category": "conflicts",
+      "pdf_count": 4,
+      "expected": {
+        "has_conflict": true
+      }
+    },
+    {
+      "name": "conflict_discharge_date",
+      "category": "conflicts",
+      "pdf_count": 4,
+      "expected": {
+        "has_conflict": true
+      }
+    },
+    {
+      "name": "conflict_allergies",
+      "category": "conflicts",
+      "pdf_count": 4,
+      "expected": {
+        "has_conflict": true
+      }
+    },
+    {
+      "name": "conflict_patient_name",
+      "category": "conflicts",
+      "pdf_count": 4,
+      "expected": {
+        "has_conflict": true
+      }
+    },
+    {
+      "name": "pending_culture",
+      "category": "pending",
+      "pdf_count": 4,
+      "expected": {
+        "has_pending": true
+      }
+    },
+    {
+      "name": "pending_pathology",
+      "category": "pending",
+      "pdf_count": 4,
+      "expected": {
+        "has_pending": true
+      }
+    },
+    {
+      "name": "pending_multiple",
+      "category": "pending",
+      "pdf_count": 4,
+      "expected": {
+        "has_pending": true
+      }
+    },
+    {
+      "name": "med_added",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "med_removed",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "med_dose",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "med_frequency",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "med_route",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "med_multi",
+      "category": "med_discrepancy",
+      "pdf_count": 3,
+      "expected": {
+        "has_med_changes": true
+      }
+    },
+    {
+      "name": "interaction_1",
+      "category": "interactions",
+      "pdf_count": 3,
+      "expected": {
+        "has_high_interaction": true
+      }
+    },
+    {
+      "name": "interaction_2",
+      "category": "interactions",
+      "pdf_count": 3,
+      "expected": {
+        "has_high_interaction": true
+      }
+    },
+    {
+      "name": "interaction_3",
+      "category": "interactions",
+      "pdf_count": 3,
+      "expected": {
+        "has_high_interaction": true
+      }
+    },
+    {
+      "name": "interaction_4",
+      "category": "interactions",
+      "pdf_count": 3,
+      "expected": {
+        "has_high_interaction": true
+      }
+    },
+    {
+      "name": "multi_flags_1",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "multi_flags_2",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "multi_flags_3",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "multi_flags_4",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "multi_flags_5",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "multi_flags_6",
+      "category": "multi_flags",
+      "pdf_count": 5,
+      "expected": {
+        "min_safety_flags": 2
+      }
+    },
+    {
+      "name": "large_5_notes",
+      "category": "performance",
+      "pdf_count": 8,
+      "expected": {
+        "has_draft": true,
+        "max_tool_steps": 20
+      }
+    },
+    {
+      "name": "large_10_notes",
+      "category": "performance",
+      "pdf_count": 13,
+      "expected": {
+        "has_draft": true,
+        "max_tool_steps": 20
+      }
+    },
+    {
+      "name": "large_15_notes",
+      "category": "performance",
+      "pdf_count": 18,
+      "expected": {
+        "has_draft": true,
+        "max_tool_steps": 20
+      }
+    },
+    {
+      "name": "large_20_notes",
+      "category": "performance",
+      "pdf_count": 23,
+      "expected": {
+        "has_draft": true,
+        "max_tool_steps": 20
+      }
+    },
+    {
+      "name": "large_25_notes",
+      "category": "performance",
+      "pdf_count": 28,
+      "expected": {
+        "has_draft": true,
+        "max_tool_steps": 20
+      }
+    },
+    {
+      "name": "variant_copd_1",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6
+      }
+    },
+    {
+      "name": "variant_copd_2",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6
+      }
+    },
+    {
+      "name": "variant_copd_3",
+      "category": "complete",
+      "pdf_count": 5,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6
+      }
+    },
+    {
+      "name": "unstructured_note_1",
+      "category": "unstructured",
+      "pdf_count": 4,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6,
+        "min_quality_score": 60
+      }
+    },
+    {
+      "name": "unstructured_note_2",
+      "category": "unstructured",
+      "pdf_count": 4,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6,
+        "min_quality_score": 60
+      }
+    },
+    {
+      "name": "unstructured_note_3",
+      "category": "unstructured",
+      "pdf_count": 4,
+      "expected": {
+        "has_draft": true,
+        "min_evidence": 6,
+        "min_quality_score": 60
+      }
+    }
+  ],
+  "total_pdfs": 285
+}

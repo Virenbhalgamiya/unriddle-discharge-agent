@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-06-03T15:35:03.849223+00:00",
+  "provider": "mock",
+  "total_scenarios": 53,
+  "passed": 53,
+  "failed": 0,
+  "pass_rate": 100.0,
+  "total_pdfs": 285,
+  "duration_sec": 7.9,
+  "results": [
+    {
+      "scenario": "complete_1",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.2,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_2",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_3",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_4",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_5",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_5",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_6",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_7",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_8",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_9",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_extra_10",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "complete_with_labs_only_pending",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "missing_diagnosis",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.11,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_allergies",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_discharge_date",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_demographics",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_follow_up",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.11,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_discharge_condition",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "missing_medications",
+      "category": "missing",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.11,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "conflict_diagnosis",
+      "category": "conflicts",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "conflict_discharge_date",
+      "category": "conflicts",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.14,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "conflict_allergies",
+      "category": "conflicts",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "conflict_patient_name",
+      "category": "conflicts",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "pending_culture",
+      "category": "pending",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "pending_pathology",
+      "category": "pending",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "pending_multiple",
+      "category": "pending",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "med_added",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "med_removed",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "med_dose",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "med_frequency",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "med_route",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "med_multi",
+      "category": "med_discrepancy",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.14,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "interaction_1",
+      "category": "interactions",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.37,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "interaction_2",
+      "category": "interactions",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "interaction_3",
+      "category": "interactions",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.14,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "interaction_4",
+      "category": "interactions",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 3
+    },
+    {
+      "scenario": "multi_flags_1",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "multi_flags_2",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "multi_flags_3",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.14,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "multi_flags_4",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.14,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "multi_flags_5",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.12,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "multi_flags_6",
+      "category": "multi_flags",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "large_5_notes",
+      "category": "performance",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.13,
+      "pdf_count": 8
+    },
+    {
+      "scenario": "large_10_notes",
+      "category": "performance",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 13
+    },
+    {
+      "scenario": "large_15_notes",
+      "category": "performance",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.22,
+      "pdf_count": 18
+    },
+    {
+      "scenario": "large_20_notes",
+      "category": "performance",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.19,
+      "pdf_count": 23
+    },
+    {
+      "scenario": "large_25_notes",
+      "category": "performance",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.19,
+      "pdf_count": 28
+    },
+    {
+      "scenario": "variant_copd_1",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.18,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "variant_copd_2",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.16,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "variant_copd_3",
+      "category": "complete",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.15,
+      "pdf_count": 5
+    },
+    {
+      "scenario": "unstructured_note_1",
+      "category": "unstructured",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.17,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "unstructured_note_2",
+      "category": "unstructured",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.17,
+      "pdf_count": 4
+    },
+    {
+      "scenario": "unstructured_note_3",
+      "category": "unstructured",
+      "passed": true,
+      "failures": [],
+      "status": "complete",
+      "duration_sec": 0.18,
+      "pdf_count": 4
+    }
+  ]
+}

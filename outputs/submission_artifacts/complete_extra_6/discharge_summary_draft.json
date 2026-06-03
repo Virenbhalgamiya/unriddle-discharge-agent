@@ -1,0 +1,330 @@
+{
+  "banner": "DRAFT FOR CLINICIAN REVIEW \u2014 NOT A FINAL CLINICAL DOCUMENT",
+  "is_final": false,
+  "patient_id": "complete_extra_6",
+  "generated_at": "2026-06-03T15:33:43.298921Z",
+  "sections": [
+    {
+      "name": "Patient Demographics",
+      "status": "Present",
+      "content": "Jane Smith (DOB 01/15/1970).",
+      "raw_content": "Name: Jane Smith; DOB: 01/15/1970",
+      "evidence_ids": [
+        "63c60aab-6549-404c-ae4f-672f8ca2b0b8",
+        "f3570c87-6f38-43c1-9b5b-ba864ed28c3e"
+      ]
+    },
+    {
+      "name": "Admission Date",
+      "status": "Present",
+      "content": "03/01/2026",
+      "raw_content": "03/01/2026",
+      "evidence_ids": [
+        "645c5f9e-ca19-4e0d-9e70-9999c4ba779e"
+      ]
+    },
+    {
+      "name": "Discharge Date",
+      "status": "Present",
+      "content": "03/05/2026",
+      "raw_content": "03/05/2026",
+      "evidence_ids": [
+        "3ffffa56-b348-4702-a139-e7fdbb543c69"
+      ]
+    },
+    {
+      "name": "Principal Diagnosis",
+      "status": "Present",
+      "content": "Principal diagnosis: Chronic Obstructive Pulmonary Disease exacerbation.\n\n_Note: Apply formatting improvement for Principal Diagnosis_",
+      "raw_content": "COPD exacerbation",
+      "evidence_ids": [
+        "240414db-0883-47c6-86a6-8c37226d825f"
+      ]
+    },
+    {
+      "name": "Secondary Diagnoses",
+      "status": "Present",
+      "content": "Secondary diagnoses: Hypertension.",
+      "raw_content": "Hypertension",
+      "evidence_ids": [
+        "f338ed2d-bdf2-4385-a72e-1467971febee"
+      ]
+    },
+    {
+      "name": "Hospital Course",
+      "status": "Present",
+      "content": "The patient was hospitalized and patient treated with antibiotics and improved. Patient improving.\n\n_Note: Prefer clinician-style formatting for Hospital Course_",
+      "raw_content": "Patient treated with antibiotics and improved. Patient improving.",
+      "evidence_ids": [
+        "71912158-806b-4db8-b7e4-13992df48f4f"
+      ]
+    },
+    {
+      "name": "Procedures",
+      "status": "Present",
+      "content": "Procedures during this admission included Chest X-ray.",
+      "raw_content": "Chest X-ray",
+      "evidence_ids": [
+        "87ebde87-be1b-4fbe-974e-294ac8235e15"
+      ]
+    },
+    {
+      "name": "Lab Results",
+      "status": "Present",
+      "content": "Relevant laboratory findings:\n- WBC: 12.5 K/uL",
+      "raw_content": "WBC: 12.5 K/uL",
+      "evidence_ids": [
+        "a5644d17-91db-40d4-b901-91e64f234897"
+      ]
+    },
+    {
+      "name": "Discharge Medications",
+      "status": "Present",
+      "content": "Discharge medication regimen:\n- Lisinopril 10mg by mouth (PO) daily\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_",
+      "raw_content": "Lisinopril 10mg PO daily; Warfarin 5mg PO daily",
+      "evidence_ids": [
+        "220efa72-d449-4175-b62c-5f4657ff0360",
+        "a5e7bf7e-aaea-499e-a370-ad2a849c1eb8"
+      ]
+    },
+    {
+      "name": "Allergies",
+      "status": "Present",
+      "content": "Documented allergies: Penicillin.",
+      "raw_content": "Penicillin",
+      "evidence_ids": [
+        "99cd36aa-1f46-40c2-824a-bff96f587b7c"
+      ]
+    },
+    {
+      "name": "Follow-up Instructions",
+      "status": "Present",
+      "content": "Recommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_",
+      "raw_content": "Primary care in 1 week",
+      "evidence_ids": [
+        "13be15ad-0d8e-427f-975d-821c6f957e06"
+      ]
+    },
+    {
+      "name": "Discharge Condition",
+      "status": "Present",
+      "content": "Patient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_",
+      "raw_content": "Stable",
+      "evidence_ids": [
+        "7436a6d0-e755-414e-9879-166af0a68f6d"
+      ]
+    },
+    {
+      "name": "Medication Changes",
+      "status": "Present",
+      "content": "- **Aspirin** (Removed): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Lisinopril** (Continued): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `Lisinopril 10mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_",
+      "raw_content": "Aspirin: Removed \u2014 Reason Not Documented; Lisinopril: Continued \u2014 Reason Not Documented; Warfarin: Added \u2014 Reason Not Documented",
+      "evidence_ids": []
+    },
+    {
+      "name": "Safety Flags",
+      "status": "Present",
+      "content": "aspirin Removed: Reason Not Documented; warfarin Added: Reason Not Documented; PENDING: Culture pending\n\n_Note: Prefer clinician-style formatting for Safety Flags_",
+      "raw_content": "aspirin Removed: Reason Not Documented; warfarin Added: Reason Not Documented; PENDING: Culture pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Conflicts",
+      "status": "Missing",
+      "content": "No conflicts detected",
+      "raw_content": "No conflicts detected",
+      "evidence_ids": []
+    },
+    {
+      "name": "Clinician Review Items",
+      "status": "Present",
+      "content": "Removed for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence 71912158-806b-4db8-b7e4-13992df48f4f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+      "raw_content": "Removed for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence 71912158-806b-4db8-b7e4-13992df48f4f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1",
+      "evidence_ids": []
+    },
+    {
+      "name": "Pending Results",
+      "status": "Pending",
+      "content": "Culture pending \u2014 PENDING",
+      "raw_content": "Culture pending \u2014 PENDING",
+      "evidence_ids": []
+    }
+  ],
+  "narrative_summary": "# Discharge Summary Draft\n\n## Executive Summary\nJane Smith (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Chronic Obstructive Pulmonary Disease exacerbation. Patient treated with antibiotics and improved. Patient improving. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n## Patient Demographics\nJane Smith (DOB 01/15/1970).\n\n## Admission Date\n03/01/2026\n\n## Discharge Date\n03/05/2026\n\n## Principal Diagnosis\nPrincipal diagnosis: Chronic Obstructive Pulmonary Disease exacerbation.\n\n_Note: Apply formatting improvement for Principal Diagnosis_\n\n## Secondary Diagnoses\nSecondary diagnoses: Hypertension.\n\n## Hospital Course\nThe patient was hospitalized and patient treated with antibiotics and improved. Patient improving.\n\n_Note: Prefer clinician-style formatting for Hospital Course_\n\n## Procedures\nProcedures during this admission included Chest X-ray.\n\n## Lab Results\nRelevant laboratory findings:\n- WBC: 12.5 K/uL\n\n## Discharge Medications\nDischarge medication regimen:\n- Lisinopril 10mg by mouth (PO) daily\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_\n\n## Allergies\nDocumented allergies: Penicillin.\n\n## Follow-up Instructions\nRecommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_\n\n## Discharge Condition\nPatient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_\n\n## Pending Results\nCulture pending \u2014 PENDING\n\n## Medication Changes\n- **Aspirin** (Removed): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Lisinopril** (Continued): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `Lisinopril 10mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_\n\n## Items Requiring Clinician Review\nRemoved for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence 71912158-806b-4db8-b7e4-13992df48f4f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+  "executive_summary": "Jane Smith (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Chronic Obstructive Pulmonary Disease exacerbation. Patient treated with antibiotics and improved. Patient improving. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.",
+  "quality_score": 95.0,
+  "safety_flags_summary": [
+    "aspirin Removed: Reason Not Documented",
+    "warfarin Added: Reason Not Documented",
+    "PENDING: Culture pending"
+  ],
+  "conflicts_summary": [],
+  "clinician_review_summary": [
+    "Removed for aspirin: Reason Not Documented",
+    "Added for warfarin: Reason Not Documented",
+    "Pending result: Culture pending",
+    "Evidence 71912158-806b-4db8-b7e4-13992df48f4f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1"
+  ],
+  "evidence_references": [
+    {
+      "id": "63c60aab-6549-404c-ae4f-672f8ca2b0b8",
+      "value": "Jane Smith",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261524Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "f3570c87-6f38-43c1-9b5b-ba864ed28c3e",
+      "value": "01/15/1970",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261537Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "645c5f9e-ca19-4e0d-9e70-9999c4ba779e",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261552Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "3ffffa56-b348-4702-a139-e7fdbb543c69",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261561Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "240414db-0883-47c6-86a6-8c37226d825f",
+      "value": "COPD exacerbation",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261571Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "f338ed2d-bdf2-4385-a72e-1467971febee",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261582Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "71912158-806b-4db8-b7e4-13992df48f4f",
+      "value": "Patient treated with antibiotics and improved. Patient improving.",
+      "source_document": "progress_note_1.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.262077Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Hospital Course: Patient improving.\n"
+    },
+    {
+      "id": "87ebde87-be1b-4fbe-974e-294ac8235e15",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261604Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "99cd36aa-1f46-40c2-824a-bff96f587b7c",
+      "value": "Penicillin",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261615Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "13be15ad-0d8e-427f-975d-821c6f957e06",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261629Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "7436a6d0-e755-414e-9879-166af0a68f6d",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261641Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Patient Name: Jane Smith\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: COPD exacerbation\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "a5644d17-91db-40d4-b901-91e64f234897",
+      "value": "WBC: 12.5 K/uL",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261790Z",
+      "confidence": 1.0,
+      "field_name": "lab_results",
+      "source_text": "WBC: 12.5 K/uL\nCulture pending\n"
+    },
+    {
+      "id": "f15d145a-2766-4a50-afeb-821f4a014b98",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261880Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "888b9464-cbc6-4d72-8b50-3a708b32b69c",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261888Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "220efa72-d449-4175-b62c-5f4657ff0360",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261969Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Warfarin 5mg PO daily\n"
+    },
+    {
+      "id": "a5e7bf7e-aaea-499e-a370-ad2a849c1eb8",
+      "value": "Warfarin 5mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:43.261978Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Warfarin 5mg PO daily\n"
+    }
+  ]
+}

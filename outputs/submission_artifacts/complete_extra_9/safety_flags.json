@@ -1,0 +1,25 @@
+{
+  "flags": [
+    {
+      "id": "42732749-508d-4ac3-ac0c-91bc6b91ac6b",
+      "category": "medication_discrepancy",
+      "message": "aspirin Removed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "cef2062b-8add-4822-a2c6-d7cdb84ab98c",
+      "category": "medication_discrepancy",
+      "message": "warfarin Added: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "681c8bd6-825a-4828-9f34-12af1859d1af",
+      "category": "pending_result",
+      "message": "PENDING: Culture pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "flags": [
+    {
+      "id": "ea6de97d-a1f3-4ab9-8bb2-55fc7c7206b2",
+      "category": "medication_discrepancy",
+      "message": "aspirin Removed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "be828474-8cda-431f-ba66-3aae779482a3",
+      "category": "medication_discrepancy",
+      "message": "metformin Frequency Changed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    }
+  ]
+}

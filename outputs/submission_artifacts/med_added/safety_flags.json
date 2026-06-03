@@ -1,0 +1,18 @@
+{
+  "flags": [
+    {
+      "id": "67f79f38-efac-470c-9d7a-0fceaf543dd2",
+      "category": "medication_discrepancy",
+      "message": "warfarin Added: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "b8d14fd1-0e5f-43f7-b5cf-078659a0d03c",
+      "category": "drug_interaction",
+      "message": "High severity interaction: aspirin + warfarin",
+      "severity": "critical",
+      "source": "interaction_checker"
+    }
+  ]
+}

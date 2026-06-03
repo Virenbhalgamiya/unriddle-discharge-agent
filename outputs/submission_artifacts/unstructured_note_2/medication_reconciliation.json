@@ -1,0 +1,31 @@
+{
+  "patient_id": "unstructured_note_2",
+  "changes": [
+    {
+      "medication_name": "Azithromycin",
+      "change_type": "Added",
+      "admission_value": null,
+      "discharge_value": "Azithromycin 250mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "5dacdce6-3a61-4507-9757-4675bc9f4478"
+      ]
+    },
+    {
+      "medication_name": "Lisinopril",
+      "change_type": "Continued",
+      "admission_value": "Lisinopril 10mg PO daily",
+      "discharge_value": "Lisinopril 10mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "b23390ce-4255-4921-901a-a72187f20c1a",
+        "74335ffe-54b9-41ef-88de-b7ce5ea61ab5"
+      ]
+    }
+  ],
+  "admission_count": 1,
+  "discharge_count": 2,
+  "undocumented_changes": 1
+}

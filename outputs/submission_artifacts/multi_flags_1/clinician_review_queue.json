@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "119c74de-210b-4916-ba77-b9d013ed91d3",
+      "reason": "Medication discrepancy",
+      "details": "Removed for lisinopril: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.179822Z"
+    },
+    {
+      "id": "b2f381af-866a-4fc5-a6bc-4cd939621ba8",
+      "reason": "Medication discrepancy",
+      "details": "Added for warfarin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.179897Z"
+    },
+    {
+      "id": "2a77ad1c-3329-45ee-afee-85c3e6fdb490",
+      "reason": "Missing data",
+      "details": "Required field 'allergies' not found in source documents.",
+      "section": "allergies",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.181082Z"
+    },
+    {
+      "id": "f63e5afe-7e95-4410-8490-bb3390f07298",
+      "reason": "Conflict",
+      "details": "Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "section": "principal_diagnosis",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.182148Z"
+    },
+    {
+      "id": "f1de9eb8-de95-420f-ac7c-59b430d18887",
+      "reason": "Pending critical result",
+      "details": "Pending result: Culture pending",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.183294Z"
+    }
+  ]
+}

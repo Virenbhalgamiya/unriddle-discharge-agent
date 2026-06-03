@@ -1,0 +1,25 @@
+{
+  "flags": [
+    {
+      "id": "4848b206-5191-4411-ad95-ac1bbe66b120",
+      "category": "medication_discrepancy",
+      "message": "aspirin Removed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "b9066dfa-da4e-4839-afaf-ff4d73c6ce49",
+      "category": "medication_discrepancy",
+      "message": "lisinopril Dose Changed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    },
+    {
+      "id": "70d4187f-ffcf-402f-990e-7e4a46f69d49",
+      "category": "medication_discrepancy",
+      "message": "warfarin Added: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    }
+  ]
+}

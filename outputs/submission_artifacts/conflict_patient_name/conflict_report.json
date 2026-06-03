@@ -1,0 +1,22 @@
+{
+  "conflicts": [
+    {
+      "field_name": "patient_name",
+      "message": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "values": [
+        {
+          "value": "John Doe",
+          "source_document": "admission_note.pdf",
+          "page_number": 1,
+          "evidence_id": "97c23bd6-a299-41cf-8a35-f8c3fa75760f"
+        },
+        {
+          "value": "Jonathan Doe",
+          "source_document": "progress_note_1.pdf",
+          "page_number": 1,
+          "evidence_id": "ccdbbde5-da8d-4ba2-985e-49ad39a69c6f"
+        }
+      ]
+    }
+  ]
+}

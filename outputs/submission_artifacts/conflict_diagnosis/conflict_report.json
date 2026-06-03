@@ -1,0 +1,22 @@
+{
+  "conflicts": [
+    {
+      "field_name": "principal_diagnosis",
+      "message": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "values": [
+        {
+          "value": "Pneumonia",
+          "source_document": "admission_note.pdf",
+          "page_number": 1,
+          "evidence_id": "dcb2d7cc-3a9a-4320-b8ce-4340abd7c726"
+        },
+        {
+          "value": "Bronchitis",
+          "source_document": "progress_note_1.pdf",
+          "page_number": 1,
+          "evidence_id": "8674ab6c-727f-4b28-9b35-1ce7d28a2716"
+        }
+      ]
+    }
+  ]
+}

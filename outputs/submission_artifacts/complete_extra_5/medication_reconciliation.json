@@ -1,0 +1,42 @@
+{
+  "patient_id": "complete_extra_5",
+  "changes": [
+    {
+      "medication_name": "Aspirin",
+      "change_type": "Removed",
+      "admission_value": "Aspirin 81mg PO daily",
+      "discharge_value": null,
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "dc5cb7fd-4e3d-4ec4-b22b-01449d4f4746"
+      ]
+    },
+    {
+      "medication_name": "Lisinopril",
+      "change_type": "Continued",
+      "admission_value": "Lisinopril 10mg PO daily",
+      "discharge_value": "Lisinopril 10mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "45e6b4dc-8456-4756-8578-ddc637024ff0",
+        "d7f2eae2-6f1c-4a84-b105-54b9bea18865"
+      ]
+    },
+    {
+      "medication_name": "Warfarin",
+      "change_type": "Added",
+      "admission_value": null,
+      "discharge_value": "Warfarin 5mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "c5b63154-1bbc-405a-b8b1-38c22c56d31e"
+      ]
+    }
+  ],
+  "admission_count": 2,
+  "discharge_count": 2,
+  "undocumented_changes": 2
+}

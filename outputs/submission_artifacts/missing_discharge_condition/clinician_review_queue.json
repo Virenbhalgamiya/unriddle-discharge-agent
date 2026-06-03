@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "51324fdc-4938-4080-9c19-a84fda0d5cd7",
+      "reason": "Missing data",
+      "details": "Required field 'discharge_condition' not found in source documents.",
+      "section": "discharge_condition",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:48.379722Z"
+    }
+  ]
+}

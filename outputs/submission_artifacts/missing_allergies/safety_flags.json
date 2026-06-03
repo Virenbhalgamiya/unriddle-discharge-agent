@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "38b5f6b3-b1a9-490e-b9c9-a43d4191adeb",
+      "category": "missing_data",
+      "message": "allergies: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    }
+  ]
+}

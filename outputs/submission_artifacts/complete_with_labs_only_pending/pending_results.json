@@ -1,0 +1,10 @@
+{
+  "pending_results": [
+    {
+      "description": "Urinalysis pending",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "status": "PENDING"
+    }
+  ]
+}

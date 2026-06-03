@@ -1,0 +1,10 @@
+{
+  "pending_results": [
+    {
+      "description": "Pathology pending final review",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "status": "PENDING"
+    }
+  ]
+}

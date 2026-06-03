@@ -1,0 +1,20 @@
+{
+  "patient_id": "missing_discharge_condition",
+  "changes": [
+    {
+      "medication_name": "Aspirin",
+      "change_type": "Continued",
+      "admission_value": "Aspirin 81mg PO daily",
+      "discharge_value": "Aspirin 81mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "cedeef1a-0e3b-4d8f-83e2-b7971ee0d7f2",
+        "859ea746-4ca8-4b6c-b7c1-49f2c3abcb27"
+      ]
+    }
+  ],
+  "admission_count": 1,
+  "discharge_count": 1,
+  "undocumented_changes": 0
+}

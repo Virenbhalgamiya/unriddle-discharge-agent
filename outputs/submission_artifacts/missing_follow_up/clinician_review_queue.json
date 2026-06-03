@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "f6aa61fa-526a-47ba-ac7f-9264d8f7a3f5",
+      "reason": "Missing data",
+      "details": "Required field 'follow_up_instructions' not found in source documents.",
+      "section": "follow_up_instructions",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:48.886166Z"
+    }
+  ]
+}

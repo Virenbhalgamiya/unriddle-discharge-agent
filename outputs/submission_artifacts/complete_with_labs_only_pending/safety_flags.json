@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "5f9b27bd-a643-462d-8620-766362a46b05",
+      "category": "pending_result",
+      "message": "PENDING: Urinalysis pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

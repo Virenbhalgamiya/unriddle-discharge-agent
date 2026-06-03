@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "b9ea5d24-ed33-415c-9530-9f34f51dd4d3",
+      "reason": "Medication discrepancy",
+      "details": "Removed for aspirin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.371248Z"
+    },
+    {
+      "id": "63be3067-e915-4bbd-9aa9-3a1cbd3eb1df",
+      "reason": "Medication discrepancy",
+      "details": "Frequency Changed for metformin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.371380Z"
+    }
+  ]
+}

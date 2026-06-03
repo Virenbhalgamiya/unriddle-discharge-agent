@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-06-03T15:34:16.000095+00:00",
+  "method": "cold_baseline_then_incremental_correction_memory",
+  "splits": {
+    "train": [
+      {
+        "folder": "complete",
+        "split": "train",
+        "metrics": {
+          "normalized_edit_distance": 0.03620405924300607,
+          "edit_score": 0.9637959407569939,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9040139616055847,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.9589040206065568
+        },
+        "status": "complete"
+      },
+      {
+        "folder": "missing",
+        "split": "train",
+        "metrics": {
+          "normalized_edit_distance": 0.20277296360485264,
+          "edit_score": 0.7972270363951474,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9112903225806451,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.9183532486623542
+        },
+        "status": "complete"
+      }
+    ],
+    "val": [
+      {
+        "folder": "conflicts",
+        "split": "val",
+        "metrics": {
+          "normalized_edit_distance": 0.3349693251533742,
+          "edit_score": 0.6650306748466258,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9112903225806451,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.8853041582752238
+        },
+        "status": "complete"
+      },
+      {
+        "folder": "pending",
+        "split": "val",
+        "metrics": {
+          "normalized_edit_distance": 0.0578216046615867,
+          "edit_score": 0.9421783953384133,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9112903225806451,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.9545910883981708
+        },
+        "status": "complete"
+      }
+    ],
+    "test": [
+      {
+        "folder": "med_discrepancy",
+        "split": "test",
+        "metrics": {
+          "normalized_edit_distance": 0.08781051415366836,
+          "edit_score": 0.9121894858463316,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9045138888888888,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.9460773959713868
+        },
+        "status": "complete"
+      },
+      {
+        "folder": "multi_flags",
+        "split": "test",
+        "metrics": {
+          "normalized_edit_distance": 0.03202328966521106,
+          "edit_score": 0.9679767103347889,
+          "section_accuracy": 0.8823529411764706,
+          "field_accuracy": 1.0,
+          "medication_accuracy": 0.9040139616055847,
+          "conflict_detection_accuracy": 1.0,
+          "missing_data_recall": 1.0,
+          "pending_result_recall": 1.0,
+          "safety_flag_recall": 1.0,
+          "composite_reward": 0.9599492130010056
+        },
+        "status": "complete"
+      }
+    ]
+  },
+  "before_avg_reward": 0.9361414500280956,
+  "after_avg_reward": 0.9386286346344554,
+  "improvement_delta": 0.0024871846063598824,
+  "learning_curve": [
+    {
+      "step": 1,
+      "folder": "complete",
+      "reward": 0.9589040206065568,
+      "edit_score": 0.9637959407569939
+    },
+    {
+      "step": 2,
+      "folder": "missing",
+      "reward": 0.9183532486623542,
+      "edit_score": 0.7972270363951474
+    }
+  ]
+}

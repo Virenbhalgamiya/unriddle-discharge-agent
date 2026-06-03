@@ -1,0 +1,30 @@
+{
+  "patient_id": "multi_flags_1",
+  "changes": [
+    {
+      "medication_name": "Lisinopril",
+      "change_type": "Removed",
+      "admission_value": "Lisinopril 10mg PO daily",
+      "discharge_value": null,
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "b7673e06-9d84-461c-8d67-7f760326ea48"
+      ]
+    },
+    {
+      "medication_name": "Warfarin",
+      "change_type": "Added",
+      "admission_value": null,
+      "discharge_value": "Warfarin 5mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "2e5ac564-07d3-40cd-8815-b91ed87a4716"
+      ]
+    }
+  ],
+  "admission_count": 1,
+  "discharge_count": 1,
+  "undocumented_changes": 2
+}

@@ -1,0 +1,13 @@
+services:
+  discharge-agent:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./fixtures:/app/fixtures
+      - ./outputs:/app/outputs
+      - ./traces:/app/traces
+      - ./data:/app/data
+    command: streamlit run app/ui/streamlit_app.py --server.address=0.0.0.0 --server.port=8501

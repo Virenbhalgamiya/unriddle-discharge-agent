@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "f1e36dc9-15c9-459c-a223-25625ee92037",
+      "reason": "Pending critical result",
+      "details": "Pending result: Blood culture pending",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:50.324254Z"
+    }
+  ]
+}

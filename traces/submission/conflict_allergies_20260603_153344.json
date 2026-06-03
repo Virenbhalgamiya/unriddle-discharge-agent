@@ -1,0 +1,747 @@
+{
+  "patient_id": "conflict_allergies",
+  "generated_at": "2026-06-03T15:33:44.383681+00:00",
+  "steps": [
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Plan next tool: load_documents",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute load_documents"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Execute tool: load_documents",
+      "tool_name": "load_documents",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "load_documents"
+      },
+      "tool_output": {
+        "loaded_documents": {
+          "admission_note.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\conflict_allergies\\admission_note.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_admission.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\conflict_allergies\\medication_admission.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n- Aspirin 81mg PO daily\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_discharge.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\conflict_allergies\\medication_discharge.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n- Aspirin 81mg PO daily\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_1.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\conflict_allergies\\progress_note_1.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Allergies: Sulfa\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          }
+        },
+        "clinician_review_items": [],
+        "safety_flags": [],
+        "failures": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "extract_fields",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Plan next tool: extract_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute extract_fields"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Execute tool: extract_fields",
+      "tool_name": "extract_fields",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "extract_fields"
+      },
+      "tool_output": {
+        "evidence_store": [
+          {
+            "id": "556fc86b-da5d-4b6b-a901-1f7de5fc510e",
+            "value": "John Doe",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293092Z",
+            "confidence": 1.0,
+            "field_name": "patient_name",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "b557a51d-faa5-407b-acd4-5fe85a39245b",
+            "value": "01/15/1970",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293108Z",
+            "confidence": 1.0,
+            "field_name": "patient_dob",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "2e08bba1-acc5-4dba-a854-3729cedfdc5f",
+            "value": "03/01/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293125Z",
+            "confidence": 1.0,
+            "field_name": "admission_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "69e6786a-e74a-4991-8565-5250e29af1c2",
+            "value": "03/05/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293134Z",
+            "confidence": 1.0,
+            "field_name": "discharge_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "fac00506-37a9-4c2c-9a76-2ec7cf162f57",
+            "value": "Pneumonia",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293144Z",
+            "confidence": 1.0,
+            "field_name": "principal_diagnosis",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "64e41510-ecef-46bf-be07-ebebf9577da1",
+            "value": "Hypertension",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293155Z",
+            "confidence": 1.0,
+            "field_name": "secondary_diagnoses",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "13f9008b-1a1f-4f74-9459-89ca60be82a5",
+            "value": "Patient treated with antibiotics and improved.",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293165Z",
+            "confidence": 1.0,
+            "field_name": "hospital_course",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "ec744bf7-0709-4d0a-ae98-1edd0d2f4a92",
+            "value": "Chest X-ray",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293176Z",
+            "confidence": 1.0,
+            "field_name": "procedures",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "0cd969ab-944d-4ba5-bf75-a0b06428d12e",
+            "value": "Penicillin",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293188Z",
+            "confidence": 1.0,
+            "field_name": "allergies",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "82db017c-79ff-4092-9e12-184e34b508cd",
+            "value": "Sulfa",
+            "source_document": "progress_note_1.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293471Z",
+            "confidence": 1.0,
+            "field_name": "allergies",
+            "source_text": "Allergies: Sulfa\n"
+          },
+          {
+            "id": "55e1891c-bd46-4602-8484-d5783ad45709",
+            "value": "Primary care in 1 week",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293203Z",
+            "confidence": 1.0,
+            "field_name": "follow_up_instructions",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "0e469a3c-d6ee-4a56-9a97-5932109a5d70",
+            "value": "Stable",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293216Z",
+            "confidence": 1.0,
+            "field_name": "discharge_condition",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "fd21de56-d51a-4606-b89b-9aa17bad1c81",
+            "value": "Aspirin 81mg PO daily",
+            "source_document": "medication_admission.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293377Z",
+            "confidence": 1.0,
+            "field_name": "admission_medications",
+            "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          {
+            "id": "e1f61849-78a0-4350-88e5-f7f65bde7047",
+            "value": "Aspirin 81mg PO daily",
+            "source_document": "medication_discharge.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:44.293447Z",
+            "confidence": 1.0,
+            "field_name": "discharge_medications",
+            "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+          }
+        ],
+        "page_text_cache": {
+          "admission_note.pdf": {
+            "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          "medication_admission.pdf": {
+            "1": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          "medication_discharge.pdf": {
+            "1": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          "progress_note_1.pdf": {
+            "1": "Allergies: Sulfa\n"
+          }
+        }
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Plan next tool: medication_reconciliation",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute medication_reconciliation"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Execute tool: medication_reconciliation",
+      "tool_name": "medication_reconciliation",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "medication_reconciliation"
+      },
+      "tool_output": {
+        "medication_changes": [
+          {
+            "medication_name": "Aspirin",
+            "change_type": "Continued",
+            "admission_value": "Aspirin 81mg PO daily",
+            "discharge_value": "Aspirin 81mg PO daily",
+            "reason": "Reason Not Documented",
+            "requires_review": false,
+            "evidence_ids": [
+              "fd21de56-d51a-4606-b89b-9aa17bad1c81",
+              "e1f61849-78a0-4350-88e5-f7f65bde7047"
+            ]
+          }
+        ],
+        "medication_report": {
+          "patient_id": "conflict_allergies",
+          "changes": [
+            {
+              "medication_name": "Aspirin",
+              "change_type": "Continued",
+              "admission_value": "Aspirin 81mg PO daily",
+              "discharge_value": "Aspirin 81mg PO daily",
+              "reason": "Reason Not Documented",
+              "requires_review": false,
+              "evidence_ids": [
+                "fd21de56-d51a-4606-b89b-9aa17bad1c81",
+                "e1f61849-78a0-4350-88e5-f7f65bde7047"
+              ]
+            }
+          ],
+          "admission_count": 1,
+          "discharge_count": 1,
+          "undocumented_changes": 0
+        },
+        "clinician_review_items": [],
+        "safety_flags": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts",
+          "detect_missing_fields"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Plan next tool: detect_missing_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_missing_fields"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Execute tool: detect_missing_fields",
+      "tool_name": "detect_missing_fields",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "detect_missing_fields"
+      },
+      "tool_output": {
+        "missing_fields": [],
+        "safety_flags": [],
+        "clinician_review_items": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Plan next tool: detect_conflicts",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_conflicts"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Execute tool: detect_conflicts",
+      "tool_name": "detect_conflicts",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "detect_conflicts"
+      },
+      "tool_output": {
+        "conflicts": [
+          {
+            "field_name": "allergies",
+            "message": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "values": [
+              {
+                "value": "Penicillin",
+                "source_document": "admission_note.pdf",
+                "page_number": 1,
+                "evidence_id": "0cd969ab-944d-4ba5-bf75-a0b06428d12e"
+              },
+              {
+                "value": "Sulfa",
+                "source_document": "progress_note_1.pdf",
+                "page_number": 1,
+                "evidence_id": "82db017c-79ff-4092-9e12-184e34b508cd"
+              }
+            ]
+          }
+        ],
+        "safety_flags": [
+          {
+            "id": "153f20af-c178-4a73-860c-41e2a2468928",
+            "category": "conflict",
+            "message": "allergies: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "conflict_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "4b6c7acd-bd25-46d0-b85a-8a48be369126",
+            "reason": "Conflict",
+            "details": "Conflicting values for 'allergies': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "section": "allergies",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:44.299138Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Plan next tool: detect_pending_results",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_pending_results"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Execute tool: detect_pending_results",
+      "tool_name": "detect_pending_results",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "detect_pending_results"
+      },
+      "tool_output": {
+        "pending_results": [],
+        "safety_flags": [
+          {
+            "id": "153f20af-c178-4a73-860c-41e2a2468928",
+            "category": "conflict",
+            "message": "allergies: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "conflict_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "4b6c7acd-bd25-46d0-b85a-8a48be369126",
+            "reason": "Conflict",
+            "details": "Conflicting values for 'allergies': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "section": "allergies",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:44.299138Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Plan next tool: check_interactions",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute check_interactions"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Execute tool: check_interactions",
+      "tool_name": "check_interactions",
+      "tool_input": {
+        "patient_id": "conflict_allergies",
+        "task": "check_interactions"
+      },
+      "tool_output": {
+        "safety_flags": [
+          {
+            "id": "153f20af-c178-4a73-860c-41e2a2468928",
+            "category": "conflict",
+            "message": "allergies: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "conflict_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "4b6c7acd-bd25-46d0-b85a-8a48be369126",
+            "reason": "Conflict",
+            "details": "Conflicting values for 'allergies': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+            "section": "allergies",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:44.299138Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": true,
+        "incomplete_tasks": []
+      },
+      "result": "passed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "generate_draft"
+    },
+    {
+      "step_number": 8,
+      "reasoning_summary": "Narrative synthesis complete. Quality score: 97.8",
+      "chosen_action": "synthesize_narrative",
+      "tool_name": "narrative_agent",
+      "tool_input": {},
+      "tool_output": {
+        "synthesis_provider": "mock",
+        "quality": {
+          "overall_score": 97.8,
+          "readability": 100.0,
+          "grounding": 100.0,
+          "safety_compliance": 100.0,
+          "completeness": 85.0,
+          "issues": [
+            "missing_section:Allergies"
+          ]
+        },
+        "executive_summary_generated": true
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "complete"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "banner": "DRAFT FOR CLINICIAN REVIEW \u2014 NOT A FINAL CLINICAL DOCUMENT",
+  "is_final": false,
+  "patient_id": "multi_flags_4",
+  "generated_at": "2026-06-03T15:33:49.789795Z",
+  "sections": [
+    {
+      "name": "Patient Demographics",
+      "status": "Present",
+      "content": "John Doe (DOB 01/15/1970).",
+      "raw_content": "Name: John Doe; DOB: 01/15/1970",
+      "evidence_ids": [
+        "bfe7c9d5-69c9-4133-85b4-2c6d175a1063",
+        "c58c1f26-f39d-439c-91ca-ed4c3743b563"
+      ]
+    },
+    {
+      "name": "Admission Date",
+      "status": "Present",
+      "content": "03/01/2026",
+      "raw_content": "03/01/2026",
+      "evidence_ids": [
+        "1640e991-a1c8-4069-b5d1-d4295e56ef6c"
+      ]
+    },
+    {
+      "name": "Discharge Date",
+      "status": "Present",
+      "content": "03/05/2026",
+      "raw_content": "03/05/2026",
+      "evidence_ids": [
+        "742e59ce-6765-4dc9-b50e-057b32c6dcb2"
+      ]
+    },
+    {
+      "name": "Principal Diagnosis",
+      "status": "Conflict",
+      "content": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": [
+        "7d42269a-3f05-4fcd-b967-484d7a5d5c8f",
+        "8d5ddbb1-af07-475c-94b5-01d8b061936c"
+      ]
+    },
+    {
+      "name": "Secondary Diagnoses",
+      "status": "Present",
+      "content": "Secondary diagnoses: Hypertension.",
+      "raw_content": "Hypertension",
+      "evidence_ids": [
+        "909aa56d-6a88-4e2b-a46c-7a56dd0beb05"
+      ]
+    },
+    {
+      "name": "Hospital Course",
+      "status": "Present",
+      "content": "The patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_",
+      "raw_content": "Patient treated with antibiotics and improved.",
+      "evidence_ids": [
+        "832b28d0-4b3f-43ba-8866-30db7acd8893"
+      ]
+    },
+    {
+      "name": "Procedures",
+      "status": "Present",
+      "content": "Procedures during this admission included Chest X-ray.",
+      "raw_content": "Chest X-ray",
+      "evidence_ids": [
+        "a45ebeea-c9e9-4fec-aedf-6d63d9805e0a"
+      ]
+    },
+    {
+      "name": "Lab Results",
+      "status": "Missing",
+      "content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Discharge Medications",
+      "status": "Present",
+      "content": "Discharge medication regimen:\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_",
+      "raw_content": "Warfarin 5mg PO daily",
+      "evidence_ids": [
+        "a1d6f654-cdb7-4458-aaea-2675495692de"
+      ]
+    },
+    {
+      "name": "Allergies",
+      "status": "Missing",
+      "content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "raw_content": "MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Follow-up Instructions",
+      "status": "Present",
+      "content": "Recommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_",
+      "raw_content": "Primary care in 1 week",
+      "evidence_ids": [
+        "06ba44a3-86af-4c5d-95cd-0e6fabd9a4f3"
+      ]
+    },
+    {
+      "name": "Discharge Condition",
+      "status": "Present",
+      "content": "Patient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_",
+      "raw_content": "Stable",
+      "evidence_ids": [
+        "66ff4ed5-ea08-403d-af00-9d903b74b320"
+      ]
+    },
+    {
+      "name": "Medication Changes",
+      "status": "Present",
+      "content": "- **Lisinopril** (Removed): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_",
+      "raw_content": "Lisinopril: Removed \u2014 Reason Not Documented; Warfarin: Added \u2014 Reason Not Documented",
+      "evidence_ids": []
+    },
+    {
+      "name": "Safety Flags",
+      "status": "Present",
+      "content": "lisinopril Removed: Reason Not Documented; warfarin Added: Reason Not Documented; allergies: MISSING \u2013 CLINICIAN REVIEW REQUIRED; principal_diagnosis: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED; PENDING: Culture pending\n\n_Note: Prefer clinician-style formatting for Safety Flags_",
+      "raw_content": "lisinopril Removed: Reason Not Documented; warfarin Added: Reason Not Documented; allergies: MISSING \u2013 CLINICIAN REVIEW REQUIRED; principal_diagnosis: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED; PENDING: Culture pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Conflicts",
+      "status": "Present",
+      "content": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED\n\n_Note: Prefer clinician-style formatting for Conflicts_",
+      "raw_content": "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "evidence_ids": []
+    },
+    {
+      "name": "Clinician Review Items",
+      "status": "Present",
+      "content": "Removed for lisinopril: Reason Not Documented; Added for warfarin: Reason Not Documented; Required field 'allergies' not found in source documents.; Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED; Pending result: Culture pending\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+      "raw_content": "Removed for lisinopril: Reason Not Documented; Added for warfarin: Reason Not Documented; Required field 'allergies' not found in source documents.; Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED; Pending result: Culture pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Pending Results",
+      "status": "Pending",
+      "content": "Culture pending \u2014 PENDING",
+      "raw_content": "Culture pending \u2014 PENDING",
+      "evidence_ids": []
+    }
+  ],
+  "narrative_summary": "# Discharge Summary Draft\n\n## Executive Summary\nJohn Doe (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for the principal diagnosis. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n## Patient Demographics\nJohn Doe (DOB 01/15/1970).\n\n## Admission Date\n03/01/2026\n\n## Discharge Date\n03/05/2026\n\n## Principal Diagnosis\nCONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED\n\n## Secondary Diagnoses\nSecondary diagnoses: Hypertension.\n\n## Hospital Course\nThe patient was hospitalized and patient treated with antibiotics and improved.\n\n_Note: Prefer clinician-style formatting for Hospital Course_\n\n## Procedures\nProcedures during this admission included Chest X-ray.\n\n## Lab Results\nMISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n## Discharge Medications\nDischarge medication regimen:\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_\n\n## Allergies\nMISSING \u2013 CLINICIAN REVIEW REQUIRED\n\n## Follow-up Instructions\nRecommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_\n\n## Discharge Condition\nPatient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_\n\n## Pending Results\nCulture pending \u2014 PENDING\n\n## Medication Changes\n- **Lisinopril** (Removed): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_\n\n## Items Requiring Clinician Review\nRemoved for lisinopril: Reason Not Documented; Added for warfarin: Reason Not Documented; Required field 'allergies' not found in source documents.; Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED; Pending result: Culture pending\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+  "executive_summary": "John Doe (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for the principal diagnosis. Patient treated with antibiotics and improved. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.",
+  "quality_score": 95.5,
+  "safety_flags_summary": [
+    "lisinopril Removed: Reason Not Documented",
+    "warfarin Added: Reason Not Documented",
+    "allergies: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+    "principal_diagnosis: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+    "PENDING: Culture pending"
+  ],
+  "conflicts_summary": [
+    "CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED"
+  ],
+  "clinician_review_summary": [
+    "Removed for lisinopril: Reason Not Documented",
+    "Added for warfarin: Reason Not Documented",
+    "Required field 'allergies' not found in source documents.",
+    "Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+    "Pending result: Culture pending"
+  ],
+  "evidence_references": [
+    {
+      "id": "bfe7c9d5-69c9-4133-85b4-2c6d175a1063",
+      "value": "John Doe",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764458Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "c58c1f26-f39d-439c-91ca-ed4c3743b563",
+      "value": "01/15/1970",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764489Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "1640e991-a1c8-4069-b5d1-d4295e56ef6c",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764513Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "742e59ce-6765-4dc9-b50e-057b32c6dcb2",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764527Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "7d42269a-3f05-4fcd-b967-484d7a5d5c8f",
+      "value": "Pneumonia",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764541Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "8d5ddbb1-af07-475c-94b5-01d8b061936c",
+      "value": "Bronchitis",
+      "source_document": "progress_note_1.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.765159Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Principal Diagnosis: Bronchitis\n"
+    },
+    {
+      "id": "909aa56d-6a88-4e2b-a46c-7a56dd0beb05",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764558Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "832b28d0-4b3f-43ba-8866-30db7acd8893",
+      "value": "Patient treated with antibiotics and improved.",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764573Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "a45ebeea-c9e9-4fec-aedf-6d63d9805e0a",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764591Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "06ba44a3-86af-4c5d-95cd-0e6fabd9a4f3",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764625Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "66ff4ed5-ea08-403d-af00-9d903b74b320",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764646Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "9704bcaf-9e40-4222-a427-eb600b80912b",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.764974Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n"
+    },
+    {
+      "id": "a1d6f654-cdb7-4458-aaea-2675495692de",
+      "value": "Warfarin 5mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:49.765122Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Warfarin 5mg PO daily\n"
+    }
+  ]
+}

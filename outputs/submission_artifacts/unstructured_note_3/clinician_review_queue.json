@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "d4ab34b8-c675-480b-8596-5642be711689",
+      "reason": "Medication discrepancy",
+      "details": "Added for azithromycin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:51.214739Z"
+    },
+    {
+      "id": "1846f3e6-6861-4696-9736-629163f3aba8",
+      "reason": "Audit failure",
+      "details": "Evidence 8ad28c78-7d97-4611-883a-b30b8e00c805 value 'Received IV antibiotics and oxygen; clinically improved. Assessment: Pneumonia, Hypertension' not found in hp_note.pdf p1",
+      "section": "audit",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:51.243567Z"
+    },
+    {
+      "id": "da689402-b8dd-4275-8fba-e575c62adc55",
+      "reason": "Audit failure",
+      "details": "Evidence 283a8938-3ea5-4ce9-b5c4-68d58f8fed78 value 'Penicillin Plan: Primary care follow-up in 1 week Discharged on 03/05/2026 in stable condition' not found in hp_note.pdf p1",
+      "section": "audit",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:51.249848Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "e3bffef8-613d-44f3-8a74-537a3478dc52",
+      "category": "conflict",
+      "message": "discharge_date: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "conflict_detector"
+    }
+  ]
+}

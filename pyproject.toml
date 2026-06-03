@@ -1,0 +1,14 @@
+[project]
+name = "discharge-agent"
+version = "1.0.0"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "live: tests requiring real LLM API keys",
+    "e2e: end-to-end tests requiring fixture PDFs",
+    "slow: long-running tests (OCR, large PDFs)",
+]
+asyncio_mode = "auto"

@@ -1,0 +1,1315 @@
+{
+  "patient_id": "large_25_notes",
+  "generated_at": "2026-06-03T15:33:46.798833+00:00",
+  "steps": [
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Plan next tool: load_documents",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute load_documents"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Execute tool: load_documents",
+      "tool_name": "load_documents",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "load_documents"
+      },
+      "tool_output": {
+        "loaded_documents": {
+          "admission_note.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\admission_note.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_admission.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\medication_admission.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n- Aspirin 81mg PO daily\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_discharge.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\medication_discharge.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n- Aspirin 81mg PO daily\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_1.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_1.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 1: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_10.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_10.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 10: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_11.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_11.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 11: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_12.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_12.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 12: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_13.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_13.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 13: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_14.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_14.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 14: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_15.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_15.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 15: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_16.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_16.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 16: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_17.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_17.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 17: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_18.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_18.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 18: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_19.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_19.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 19: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_2.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_2.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 2: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_20.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_20.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 20: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_21.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_21.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 21: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_22.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_22.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 22: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_23.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_23.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 23: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_24.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_24.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 24: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_25.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_25.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 25: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_3.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_3.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 3: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_4.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_4.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 4: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_5.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_5.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 5: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_6.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_6.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 6: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_7.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_7.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 7: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_8.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_8.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 8: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "progress_note_9.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\large_25_notes\\progress_note_9.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015628+05'00'",
+              "modDate": "D:20260603015628+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Progress note 9: Patient stable.\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          }
+        },
+        "clinician_review_items": [],
+        "safety_flags": [],
+        "failures": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "extract_fields",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Plan next tool: extract_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute extract_fields"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Execute tool: extract_fields",
+      "tool_name": "extract_fields",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "extract_fields"
+      },
+      "tool_output": {
+        "evidence_store": [
+          {
+            "id": "934d11e6-92a6-4d8d-8fe3-65983e537f90",
+            "value": "John Doe",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729210Z",
+            "confidence": 1.0,
+            "field_name": "patient_name",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "31e6dd86-6f33-42b2-9545-051269e483fb",
+            "value": "01/15/1970",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729223Z",
+            "confidence": 1.0,
+            "field_name": "patient_dob",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "1af87a6d-a3f2-46e8-9d45-7372f41d6ebf",
+            "value": "03/01/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729239Z",
+            "confidence": 1.0,
+            "field_name": "admission_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "4a07a589-89ee-4800-8dc6-ca3f7f1014cf",
+            "value": "03/05/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729248Z",
+            "confidence": 1.0,
+            "field_name": "discharge_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "bcf634f0-1aa6-4965-b531-172c0f512894",
+            "value": "Pneumonia",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729259Z",
+            "confidence": 1.0,
+            "field_name": "principal_diagnosis",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "eb8476de-f548-4017-9a8a-0cc66049ad8c",
+            "value": "Hypertension",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729270Z",
+            "confidence": 1.0,
+            "field_name": "secondary_diagnoses",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "59143baf-4b0f-4f6e-b587-f4fb9c8cce11",
+            "value": "Patient treated with antibiotics and improved.",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729281Z",
+            "confidence": 1.0,
+            "field_name": "hospital_course",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "667ad68c-e1ad-45f1-bae1-2a46aa80bb3e",
+            "value": "Chest X-ray",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729293Z",
+            "confidence": 1.0,
+            "field_name": "procedures",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "af1688ef-4359-47ea-9096-446984c954bc",
+            "value": "Penicillin",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729304Z",
+            "confidence": 1.0,
+            "field_name": "allergies",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "65ed0e42-19c6-4828-8961-14a346c56bb7",
+            "value": "Primary care in 1 week",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729318Z",
+            "confidence": 1.0,
+            "field_name": "follow_up_instructions",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "8e95ac49-37a7-408b-8f6d-36571b223ea6",
+            "value": "Stable",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729331Z",
+            "confidence": 1.0,
+            "field_name": "discharge_condition",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "984112ef-5079-4bc9-ad35-6442d7d16394",
+            "value": "Aspirin 81mg PO daily",
+            "source_document": "medication_admission.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729481Z",
+            "confidence": 1.0,
+            "field_name": "admission_medications",
+            "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          {
+            "id": "b3112722-cce0-4aa6-bc23-f5fe93a74556",
+            "value": "Aspirin 81mg PO daily",
+            "source_document": "medication_discharge.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:46.729550Z",
+            "confidence": 1.0,
+            "field_name": "discharge_medications",
+            "source_text": "Medications:\n- Aspirin 81mg PO daily\n"
+          }
+        ],
+        "page_text_cache": {
+          "admission_note.pdf": {
+            "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          "medication_admission.pdf": {
+            "1": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          "medication_discharge.pdf": {
+            "1": "Medications:\n- Aspirin 81mg PO daily\n"
+          },
+          "progress_note_1.pdf": {
+            "1": "Progress note 1: Patient stable.\n"
+          },
+          "progress_note_10.pdf": {
+            "1": "Progress note 10: Patient stable.\n"
+          },
+          "progress_note_11.pdf": {
+            "1": "Progress note 11: Patient stable.\n"
+          },
+          "progress_note_12.pdf": {
+            "1": "Progress note 12: Patient stable.\n"
+          },
+          "progress_note_13.pdf": {
+            "1": "Progress note 13: Patient stable.\n"
+          },
+          "progress_note_14.pdf": {
+            "1": "Progress note 14: Patient stable.\n"
+          },
+          "progress_note_15.pdf": {
+            "1": "Progress note 15: Patient stable.\n"
+          },
+          "progress_note_16.pdf": {
+            "1": "Progress note 16: Patient stable.\n"
+          },
+          "progress_note_17.pdf": {
+            "1": "Progress note 17: Patient stable.\n"
+          },
+          "progress_note_18.pdf": {
+            "1": "Progress note 18: Patient stable.\n"
+          },
+          "progress_note_19.pdf": {
+            "1": "Progress note 19: Patient stable.\n"
+          },
+          "progress_note_2.pdf": {
+            "1": "Progress note 2: Patient stable.\n"
+          },
+          "progress_note_20.pdf": {
+            "1": "Progress note 20: Patient stable.\n"
+          },
+          "progress_note_21.pdf": {
+            "1": "Progress note 21: Patient stable.\n"
+          },
+          "progress_note_22.pdf": {
+            "1": "Progress note 22: Patient stable.\n"
+          },
+          "progress_note_23.pdf": {
+            "1": "Progress note 23: Patient stable.\n"
+          },
+          "progress_note_24.pdf": {
+            "1": "Progress note 24: Patient stable.\n"
+          },
+          "progress_note_25.pdf": {
+            "1": "Progress note 25: Patient stable.\n"
+          },
+          "progress_note_3.pdf": {
+            "1": "Progress note 3: Patient stable.\n"
+          },
+          "progress_note_4.pdf": {
+            "1": "Progress note 4: Patient stable.\n"
+          },
+          "progress_note_5.pdf": {
+            "1": "Progress note 5: Patient stable.\n"
+          },
+          "progress_note_6.pdf": {
+            "1": "Progress note 6: Patient stable.\n"
+          },
+          "progress_note_7.pdf": {
+            "1": "Progress note 7: Patient stable.\n"
+          },
+          "progress_note_8.pdf": {
+            "1": "Progress note 8: Patient stable.\n"
+          },
+          "progress_note_9.pdf": {
+            "1": "Progress note 9: Patient stable.\n"
+          }
+        }
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Plan next tool: medication_reconciliation",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute medication_reconciliation"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Execute tool: medication_reconciliation",
+      "tool_name": "medication_reconciliation",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "medication_reconciliation"
+      },
+      "tool_output": {
+        "medication_changes": [
+          {
+            "medication_name": "Aspirin",
+            "change_type": "Continued",
+            "admission_value": "Aspirin 81mg PO daily",
+            "discharge_value": "Aspirin 81mg PO daily",
+            "reason": "Reason Not Documented",
+            "requires_review": false,
+            "evidence_ids": [
+              "984112ef-5079-4bc9-ad35-6442d7d16394",
+              "b3112722-cce0-4aa6-bc23-f5fe93a74556"
+            ]
+          }
+        ],
+        "medication_report": {
+          "patient_id": "large_25_notes",
+          "changes": [
+            {
+              "medication_name": "Aspirin",
+              "change_type": "Continued",
+              "admission_value": "Aspirin 81mg PO daily",
+              "discharge_value": "Aspirin 81mg PO daily",
+              "reason": "Reason Not Documented",
+              "requires_review": false,
+              "evidence_ids": [
+                "984112ef-5079-4bc9-ad35-6442d7d16394",
+                "b3112722-cce0-4aa6-bc23-f5fe93a74556"
+              ]
+            }
+          ],
+          "admission_count": 1,
+          "discharge_count": 1,
+          "undocumented_changes": 0
+        },
+        "clinician_review_items": [],
+        "safety_flags": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts",
+          "detect_missing_fields"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Plan next tool: detect_missing_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_missing_fields"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Execute tool: detect_missing_fields",
+      "tool_name": "detect_missing_fields",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "detect_missing_fields"
+      },
+      "tool_output": {
+        "missing_fields": [],
+        "safety_flags": [],
+        "clinician_review_items": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Plan next tool: detect_conflicts",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_conflicts"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Execute tool: detect_conflicts",
+      "tool_name": "detect_conflicts",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "detect_conflicts"
+      },
+      "tool_output": {
+        "conflicts": [],
+        "safety_flags": [],
+        "clinician_review_items": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Plan next tool: detect_pending_results",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_pending_results"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Execute tool: detect_pending_results",
+      "tool_name": "detect_pending_results",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "detect_pending_results"
+      },
+      "tool_output": {
+        "pending_results": [],
+        "safety_flags": [],
+        "clinician_review_items": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Plan next tool: check_interactions",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute check_interactions"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Execute tool: check_interactions",
+      "tool_name": "check_interactions",
+      "tool_input": {
+        "patient_id": "large_25_notes",
+        "task": "check_interactions"
+      },
+      "tool_output": {
+        "safety_flags": [],
+        "clinician_review_items": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": true,
+        "incomplete_tasks": []
+      },
+      "result": "passed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "generate_draft"
+    },
+    {
+      "step_number": 8,
+      "reasoning_summary": "Narrative synthesis complete. Quality score: 95.0",
+      "chosen_action": "synthesize_narrative",
+      "tool_name": "narrative_agent",
+      "tool_input": {},
+      "tool_output": {
+        "synthesis_provider": "mock",
+        "quality": {
+          "overall_score": 95.0,
+          "readability": 100.0,
+          "grounding": 100.0,
+          "safety_compliance": 80.0,
+          "completeness": 100.0,
+          "issues": [
+            "Conflicts:missing_literal"
+          ]
+        },
+        "executive_summary_generated": true
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "complete"
+    }
+  ]
+}

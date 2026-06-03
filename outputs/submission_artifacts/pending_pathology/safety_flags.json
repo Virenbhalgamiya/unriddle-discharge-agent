@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "db0f4930-3aac-4850-8686-579c4dff3bf2",
+      "category": "pending_result",
+      "message": "PENDING: Pathology pending final review",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

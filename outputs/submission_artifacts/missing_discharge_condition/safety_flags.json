@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "7d8a2038-f5c7-4e14-a28c-068f26c9820c",
+      "category": "missing_data",
+      "message": "discharge_condition: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    }
+  ]
+}

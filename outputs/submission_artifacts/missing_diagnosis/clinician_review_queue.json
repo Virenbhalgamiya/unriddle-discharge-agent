@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "712397dd-eb85-4f80-8c56-0a6930c348d5",
+      "reason": "Missing data",
+      "details": "Required field 'principal_diagnosis' not found in source documents.",
+      "section": "principal_diagnosis",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:48.230064Z"
+    }
+  ]
+}

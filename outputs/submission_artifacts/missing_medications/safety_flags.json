@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "3147b0cf-d48a-4128-8a81-08a4d1d10205",
+      "category": "missing_data",
+      "message": "medications: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    }
+  ]
+}

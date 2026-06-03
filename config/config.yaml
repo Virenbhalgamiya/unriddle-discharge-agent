@@ -1,0 +1,45 @@
+llm_provider: gemini
+max_steps: 20
+
+narrative:
+  llm_enhance: true
+  llm_sections:
+    - Hospital Course
+    - Follow-up Instructions
+
+pdf_reader:
+  max_retries: 3
+  timeout_seconds: 180
+  ocr_enabled: true
+  ocr_dpi_scale: 2
+  ocr_timeout_seconds: 600
+
+observability:
+  langsmith_enabled: false
+  otel_enabled: false
+
+paths:
+  outputs: outputs/
+  traces: traces/
+  memory_db: data/correction_memory.db
+
+evaluation:
+  train_folders:
+    - complete
+    - missing
+  val_folders:
+    - conflicts
+    - pending
+  test_folders:
+    - med_discrepancy
+    - multi_flags
+
+required_fields:
+  - patient_demographics
+  - admission_date
+  - discharge_date
+  - principal_diagnosis
+  - medications
+  - allergies
+  - follow_up_instructions
+  - discharge_condition

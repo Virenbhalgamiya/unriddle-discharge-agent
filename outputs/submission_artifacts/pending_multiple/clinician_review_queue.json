@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "888e4d54-03d5-4f6e-8cfd-f4d89919c428",
+      "reason": "Pending critical result",
+      "details": "Pending result: Culture pending",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:50.480420Z"
+    },
+    {
+      "id": "df3f6cc7-e0ea-48e1-b1dd-d589cec2b922",
+      "reason": "Pending critical result",
+      "details": "Pending result: Pathology pending",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:50.480446Z"
+    },
+    {
+      "id": "55fe5ef3-6753-4bbb-ad15-b3acbf154f57",
+      "reason": "Pending critical result",
+      "details": "Pending result: MRI awaiting report",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:50.480464Z"
+    }
+  ]
+}

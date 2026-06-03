@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "f14d6e03-f8ca-4d30-9ade-92b8d8e29614",
+      "reason": "Pending critical result",
+      "details": "Pending result: Pathology pending final review",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:50.637936Z"
+    }
+  ]
+}

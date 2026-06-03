@@ -1,0 +1,330 @@
+{
+  "banner": "DRAFT FOR CLINICIAN REVIEW \u2014 NOT A FINAL CLINICAL DOCUMENT",
+  "is_final": false,
+  "patient_id": "variant_copd_1",
+  "generated_at": "2026-06-03T15:33:51.503375Z",
+  "sections": [
+    {
+      "name": "Patient Demographics",
+      "status": "Present",
+      "content": "Robert Lee (DOB 01/15/1970).",
+      "raw_content": "Name: Robert Lee; DOB: 01/15/1970",
+      "evidence_ids": [
+        "2c13a05a-17ea-4c2a-98fd-093a2afaeebe",
+        "b31eab0e-ee14-438c-aa3e-4fa08ffe124a"
+      ]
+    },
+    {
+      "name": "Admission Date",
+      "status": "Present",
+      "content": "03/01/2026",
+      "raw_content": "03/01/2026",
+      "evidence_ids": [
+        "71f45cbc-ac23-4e18-ae9a-f1e524e7e2cd"
+      ]
+    },
+    {
+      "name": "Discharge Date",
+      "status": "Present",
+      "content": "03/05/2026",
+      "raw_content": "03/05/2026",
+      "evidence_ids": [
+        "75a175e3-6e73-452e-9e0a-f08d6bba4172"
+      ]
+    },
+    {
+      "name": "Principal Diagnosis",
+      "status": "Present",
+      "content": "Principal diagnosis: Heart failure.\n\n_Note: Apply formatting improvement for Principal Diagnosis_",
+      "raw_content": "Heart failure",
+      "evidence_ids": [
+        "576d5f25-86f4-462f-98c3-b7c103a425a9"
+      ]
+    },
+    {
+      "name": "Secondary Diagnoses",
+      "status": "Present",
+      "content": "Secondary diagnoses: Hypertension.",
+      "raw_content": "Hypertension",
+      "evidence_ids": [
+        "8e2e7a97-22f8-437f-9c71-921f65eb8a93"
+      ]
+    },
+    {
+      "name": "Hospital Course",
+      "status": "Present",
+      "content": "The patient was hospitalized and patient treated with antibiotics and improved. Patient improving.\n\n_Note: Prefer clinician-style formatting for Hospital Course_",
+      "raw_content": "Patient treated with antibiotics and improved. Patient improving.",
+      "evidence_ids": [
+        "a4acb545-3acf-46fc-adb1-6e6341ad175f"
+      ]
+    },
+    {
+      "name": "Procedures",
+      "status": "Present",
+      "content": "Procedures during this admission included Chest X-ray.",
+      "raw_content": "Chest X-ray",
+      "evidence_ids": [
+        "ad539736-18e3-4a78-a702-1897ee9e2908"
+      ]
+    },
+    {
+      "name": "Lab Results",
+      "status": "Present",
+      "content": "Relevant laboratory findings:\n- WBC: 12.5 K/uL",
+      "raw_content": "WBC: 12.5 K/uL",
+      "evidence_ids": [
+        "95e92190-360f-4fc3-bf8e-86cf4b5560bc"
+      ]
+    },
+    {
+      "name": "Discharge Medications",
+      "status": "Present",
+      "content": "Discharge medication regimen:\n- Lisinopril 10mg by mouth (PO) daily\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_",
+      "raw_content": "Lisinopril 10mg PO daily; Warfarin 5mg PO daily",
+      "evidence_ids": [
+        "7124fd13-4606-4a41-8217-82240cd1c949",
+        "12952fe9-4f4d-4c58-8486-803ff5596061"
+      ]
+    },
+    {
+      "name": "Allergies",
+      "status": "Present",
+      "content": "Documented allergies: Penicillin.",
+      "raw_content": "Penicillin",
+      "evidence_ids": [
+        "53652f41-c73a-4106-ad93-96552574506c"
+      ]
+    },
+    {
+      "name": "Follow-up Instructions",
+      "status": "Present",
+      "content": "Recommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_",
+      "raw_content": "Primary care in 1 week",
+      "evidence_ids": [
+        "b84c4640-398e-46fc-8e9b-31e248c9cba5"
+      ]
+    },
+    {
+      "name": "Discharge Condition",
+      "status": "Present",
+      "content": "Patient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_",
+      "raw_content": "Stable",
+      "evidence_ids": [
+        "87f3e621-d859-4cdd-bf2d-6b250f778508"
+      ]
+    },
+    {
+      "name": "Medication Changes",
+      "status": "Present",
+      "content": "- **Aspirin** (Removed): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Lisinopril** (Continued): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `Lisinopril 10mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_",
+      "raw_content": "Aspirin: Removed \u2014 Reason Not Documented; Lisinopril: Continued \u2014 Reason Not Documented; Warfarin: Added \u2014 Reason Not Documented",
+      "evidence_ids": []
+    },
+    {
+      "name": "Safety Flags",
+      "status": "Present",
+      "content": "aspirin Removed: Reason Not Documented; warfarin Added: Reason Not Documented; PENDING: Culture pending\n\n_Note: Prefer clinician-style formatting for Safety Flags_",
+      "raw_content": "aspirin Removed: Reason Not Documented; warfarin Added: Reason Not Documented; PENDING: Culture pending",
+      "evidence_ids": []
+    },
+    {
+      "name": "Conflicts",
+      "status": "Missing",
+      "content": "No conflicts detected",
+      "raw_content": "No conflicts detected",
+      "evidence_ids": []
+    },
+    {
+      "name": "Clinician Review Items",
+      "status": "Present",
+      "content": "Removed for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence a4acb545-3acf-46fc-adb1-6e6341ad175f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+      "raw_content": "Removed for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence a4acb545-3acf-46fc-adb1-6e6341ad175f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1",
+      "evidence_ids": []
+    },
+    {
+      "name": "Pending Results",
+      "status": "Pending",
+      "content": "Culture pending \u2014 PENDING",
+      "raw_content": "Culture pending \u2014 PENDING",
+      "evidence_ids": []
+    }
+  ],
+  "narrative_summary": "# Discharge Summary Draft\n\n## Executive Summary\nRobert Lee (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Heart failure. Patient treated with antibiotics and improved. Patient improving. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n## Patient Demographics\nRobert Lee (DOB 01/15/1970).\n\n## Admission Date\n03/01/2026\n\n## Discharge Date\n03/05/2026\n\n## Principal Diagnosis\nPrincipal diagnosis: Heart failure.\n\n_Note: Apply formatting improvement for Principal Diagnosis_\n\n## Secondary Diagnoses\nSecondary diagnoses: Hypertension.\n\n## Hospital Course\nThe patient was hospitalized and patient treated with antibiotics and improved. Patient improving.\n\n_Note: Prefer clinician-style formatting for Hospital Course_\n\n## Procedures\nProcedures during this admission included Chest X-ray.\n\n## Lab Results\nRelevant laboratory findings:\n- WBC: 12.5 K/uL\n\n## Discharge Medications\nDischarge medication regimen:\n- Lisinopril 10mg by mouth (PO) daily\n- Warfarin 5mg by mouth (PO) daily\n\n_Note: Apply formatting improvement for Discharge Medications_\n\n## Allergies\nDocumented allergies: Penicillin.\n\n## Follow-up Instructions\nRecommended follow-up: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.\n\n_Note: Prefer clinician-style formatting for Follow-up Instructions_\n\n## Discharge Condition\nPatient discharged in stable condition.\n\n_Note: Prefer clinician-style formatting for Discharge Condition_\n\n## Pending Results\nCulture pending \u2014 PENDING\n\n## Medication Changes\n- **Aspirin** (Removed): admission `Aspirin 81mg by mouth (PO) daily` \u2192 discharge `not listed` (Reason Not Documented \u2014 clinician to verify).\n- **Lisinopril** (Continued): admission `Lisinopril 10mg by mouth (PO) daily` \u2192 discharge `Lisinopril 10mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n- **Warfarin** (Added): admission `not listed` \u2192 discharge `Warfarin 5mg by mouth (PO) daily` (Reason Not Documented \u2014 clinician to verify).\n\n_Note: Apply formatting improvement for Medication Changes_\n\n## Items Requiring Clinician Review\nRemoved for aspirin: Reason Not Documented; Added for warfarin: Reason Not Documented; Pending result: Culture pending; Evidence a4acb545-3acf-46fc-adb1-6e6341ad175f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1\n\n_Note: Prefer clinician-style formatting for Clinician Review Items_",
+  "executive_summary": "Robert Lee (DOB 01/15/1970) was hospitalized from 03/01/2026 to 03/05/2026 for Principal diagnosis: Heart failure. Patient treated with antibiotics and improved. Patient improving. At discharge the patient was in Patient discharged in stable condition. Follow-up plan: Primary care in 1 week. Patient should maintain scheduled outpatient care as documented.",
+  "quality_score": 95.0,
+  "safety_flags_summary": [
+    "aspirin Removed: Reason Not Documented",
+    "warfarin Added: Reason Not Documented",
+    "PENDING: Culture pending"
+  ],
+  "conflicts_summary": [],
+  "clinician_review_summary": [
+    "Removed for aspirin: Reason Not Documented",
+    "Added for warfarin: Reason Not Documented",
+    "Pending result: Culture pending",
+    "Evidence a4acb545-3acf-46fc-adb1-6e6341ad175f value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1"
+  ],
+  "evidence_references": [
+    {
+      "id": "2c13a05a-17ea-4c2a-98fd-093a2afaeebe",
+      "value": "Robert Lee",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454571Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b31eab0e-ee14-438c-aa3e-4fa08ffe124a",
+      "value": "01/15/1970",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454595Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "71f45cbc-ac23-4e18-ae9a-f1e524e7e2cd",
+      "value": "03/01/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454618Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "75a175e3-6e73-452e-9e0a-f08d6bba4172",
+      "value": "03/05/2026",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454634Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "576d5f25-86f4-462f-98c3-b7c103a425a9",
+      "value": "Heart failure",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454648Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "8e2e7a97-22f8-437f-9c71-921f65eb8a93",
+      "value": "Hypertension",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454664Z",
+      "confidence": 1.0,
+      "field_name": "secondary_diagnoses",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "a4acb545-3acf-46fc-adb1-6e6341ad175f",
+      "value": "Patient treated with antibiotics and improved. Patient improving.",
+      "source_document": "progress_note_1.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.455489Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "Hospital Course: Patient improving.\n"
+    },
+    {
+      "id": "ad539736-18e3-4a78-a702-1897ee9e2908",
+      "value": "Chest X-ray",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454698Z",
+      "confidence": 1.0,
+      "field_name": "procedures",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "53652f41-c73a-4106-ad93-96552574506c",
+      "value": "Penicillin",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454715Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "b84c4640-398e-46fc-8e9b-31e248c9cba5",
+      "value": "Primary care in 1 week",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454737Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "87f3e621-d859-4cdd-bf2d-6b250f778508",
+      "value": "Stable",
+      "source_document": "admission_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454757Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "Patient Name: Robert Lee\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Heart failure\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+    },
+    {
+      "id": "95e92190-360f-4fc3-bf8e-86cf4b5560bc",
+      "value": "WBC: 12.5 K/uL",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.454991Z",
+      "confidence": 1.0,
+      "field_name": "lab_results",
+      "source_text": "WBC: 12.5 K/uL\nCulture pending\n"
+    },
+    {
+      "id": "8c16bcaf-950e-4357-96dd-a29b99263424",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.455154Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "9d938c13-205d-4644-8249-811adc0609a6",
+      "value": "Aspirin 81mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.455168Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Aspirin 81mg PO daily\n"
+    },
+    {
+      "id": "7124fd13-4606-4a41-8217-82240cd1c949",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.455301Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Warfarin 5mg PO daily\n"
+    },
+    {
+      "id": "12952fe9-4f4d-4c58-8486-803ff5596061",
+      "value": "Warfarin 5mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.455315Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n- Warfarin 5mg PO daily\n"
+    }
+  ]
+}

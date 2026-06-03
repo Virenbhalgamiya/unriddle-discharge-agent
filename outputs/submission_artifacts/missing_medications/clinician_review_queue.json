@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "dd4f73d8-eb41-4807-bfeb-97ae0da000c5",
+      "reason": "Missing data",
+      "details": "Required field 'medications' not found in source documents.",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:49.029260Z"
+    }
+  ]
+}

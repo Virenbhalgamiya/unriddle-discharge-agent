@@ -1,0 +1,25 @@
+{
+  "flags": [
+    {
+      "id": "b4df8b08-1e5d-44e3-ac9a-ebe2118cd937",
+      "category": "pending_result",
+      "message": "PENDING: Culture pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    },
+    {
+      "id": "b1fccfbe-c702-4e22-941c-a6051fe65ec9",
+      "category": "pending_result",
+      "message": "PENDING: Pathology pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    },
+    {
+      "id": "d9ed5c96-31d4-44bc-9fd3-13eba06f2aa0",
+      "category": "pending_result",
+      "message": "PENDING: MRI awaiting report",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

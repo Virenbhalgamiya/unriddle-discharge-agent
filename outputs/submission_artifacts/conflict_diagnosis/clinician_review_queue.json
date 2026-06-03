@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "c59dc754-1660-4923-aab6-b1f0d6d66077",
+      "reason": "Conflict",
+      "details": "Conflicting values for 'principal_diagnosis': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "section": "principal_diagnosis",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:44.483981Z"
+    }
+  ]
+}

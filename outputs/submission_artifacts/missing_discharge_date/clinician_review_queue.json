@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "03d9d58b-e31a-4390-b654-7e6e71474fb7",
+      "reason": "Missing data",
+      "details": "Required field 'discharge_date' not found in source documents.",
+      "section": "discharge_date",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:48.680274Z"
+    }
+  ]
+}

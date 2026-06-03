@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "badf5c6e-dbf4-4bb3-9d99-b6fa0f29c2ec",
+      "category": "missing_data",
+      "message": "follow_up_instructions: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    }
+  ]
+}

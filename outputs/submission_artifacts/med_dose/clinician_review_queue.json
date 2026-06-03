@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "231c0a88-bfc3-4a48-b954-a3219124a899",
+      "reason": "Medication discrepancy",
+      "details": "Dose Changed for lisinopril: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.200322Z"
+    },
+    {
+      "id": "6f50bcb8-0a37-4dae-960d-3d38b9f0037b",
+      "reason": "Medication discrepancy",
+      "details": "Removed for metformin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.200762Z"
+    }
+  ]
+}

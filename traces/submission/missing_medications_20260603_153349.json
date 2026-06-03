@@ -1,0 +1,665 @@
+{
+  "patient_id": "missing_medications",
+  "generated_at": "2026-06-03T15:33:49.085190+00:00",
+  "steps": [
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Plan next tool: load_documents",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute load_documents"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Next required task: load_documents. Executing tool load_documents.",
+      "chosen_action": "Execute tool: load_documents",
+      "tool_name": "load_documents",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "load_documents"
+      },
+      "tool_output": {
+        "loaded_documents": {
+          "admission_note.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\missing_medications\\admission_note.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_admission.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\missing_medications\\medication_admission.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          },
+          "medication_discharge.pdf": {
+            "success": true,
+            "file_path": "D:\\unriddle-tech-assignment\\fixtures\\official_patients\\missing_medications\\medication_discharge.pdf",
+            "metadata": {
+              "format": "PDF 1.3",
+              "title": "untitled",
+              "author": "anonymous",
+              "subject": "unspecified",
+              "keywords": "",
+              "creator": "anonymous",
+              "producer": "ReportLab PDF Library - (opensource)",
+              "creationDate": "D:20260603015627+05'00'",
+              "modDate": "D:20260603015627+05'00'",
+              "trapped": "",
+              "encryption": null
+            },
+            "page_mapping": {
+              "1": "Medications:\n"
+            },
+            "errors": [],
+            "retries": 0,
+            "parser_used": "pymupdf",
+            "page_count": 1
+          }
+        },
+        "clinician_review_items": [],
+        "safety_flags": [],
+        "failures": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 1,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "extract_fields",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Plan next tool: extract_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute extract_fields"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Next required task: extract_fields. Executing tool extract_fields.",
+      "chosen_action": "Execute tool: extract_fields",
+      "tool_name": "extract_fields",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "extract_fields"
+      },
+      "tool_output": {
+        "evidence_store": [
+          {
+            "id": "b011e419-2cf2-4e69-8b48-65fb1d8391a3",
+            "value": "John Doe",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026600Z",
+            "confidence": 1.0,
+            "field_name": "patient_name",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "20ff97ab-69c0-469b-9c51-1aa3fc895903",
+            "value": "01/15/1970",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026612Z",
+            "confidence": 1.0,
+            "field_name": "patient_dob",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "88f11395-331e-44e4-8529-dfae3399f5ad",
+            "value": "03/01/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026629Z",
+            "confidence": 1.0,
+            "field_name": "admission_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "42960d87-4dc8-4d39-a691-842b43a62718",
+            "value": "03/05/2026",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026638Z",
+            "confidence": 1.0,
+            "field_name": "discharge_date",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "231671f4-c409-452d-9eef-0c2043e9a4a5",
+            "value": "Pneumonia",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026647Z",
+            "confidence": 1.0,
+            "field_name": "principal_diagnosis",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "3c391d52-8324-4970-b3d4-a4b9859f767e",
+            "value": "Hypertension",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026658Z",
+            "confidence": 1.0,
+            "field_name": "secondary_diagnoses",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "fa8fcb51-a422-47f2-9975-9f52f3b97e1b",
+            "value": "Patient treated with antibiotics and improved.",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026669Z",
+            "confidence": 1.0,
+            "field_name": "hospital_course",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "d555a7a0-6151-46e6-9bd2-51a22d828ba4",
+            "value": "Chest X-ray",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026681Z",
+            "confidence": 1.0,
+            "field_name": "procedures",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "7667c911-3e68-4736-bd61-d7ae26185b29",
+            "value": "Penicillin",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026714Z",
+            "confidence": 1.0,
+            "field_name": "allergies",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "7910bb3f-8fba-4893-acdc-831ae4c291c6",
+            "value": "Primary care in 1 week",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026731Z",
+            "confidence": 1.0,
+            "field_name": "follow_up_instructions",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          {
+            "id": "b71c5aab-c006-4f54-9b05-edea6bb1a2cb",
+            "value": "Stable",
+            "source_document": "admission_note.pdf",
+            "page_number": 1,
+            "extraction_timestamp": "2026-06-03T15:33:49.026744Z",
+            "confidence": 1.0,
+            "field_name": "discharge_condition",
+            "source_text": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          }
+        ],
+        "page_text_cache": {
+          "admission_note.pdf": {
+            "1": "Patient Name: John Doe\nDOB: 01/15/1970\nAdmission Date: 03/01/2026\nDischarge Date: 03/05/2026\nPrincipal Diagnosis: Pneumonia\nSecondary Diagnoses: Hypertension\nHospital Course: Patient treated with antibiotics and improved.\nProcedures: Chest X-ray\nAllergies: Penicillin\nFollow-up: Primary care in 1 week\nDischarge Condition: Stable\n"
+          },
+          "medication_admission.pdf": {
+            "1": "Medications:\n"
+          },
+          "medication_discharge.pdf": {
+            "1": "Medications:\n"
+          }
+        }
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 2,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "medication_reconciliation",
+          "detect_missing_fields",
+          "check_interactions",
+          "detect_pending_results",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Plan next tool: medication_reconciliation",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute medication_reconciliation"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Next required task: medication_reconciliation. Executing tool medication_reconciliation.",
+      "chosen_action": "Execute tool: medication_reconciliation",
+      "tool_name": "medication_reconciliation",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "medication_reconciliation"
+      },
+      "tool_output": {
+        "medication_changes": [],
+        "medication_report": {
+          "patient_id": "missing_medications",
+          "changes": [],
+          "admission_count": 0,
+          "discharge_count": 0,
+          "undocumented_changes": 0
+        },
+        "clinician_review_items": [],
+        "safety_flags": []
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 3,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts",
+          "detect_missing_fields"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Plan next tool: detect_missing_fields",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_missing_fields"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Next required task: detect_missing_fields. Executing tool detect_missing_fields.",
+      "chosen_action": "Execute tool: detect_missing_fields",
+      "tool_name": "detect_missing_fields",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "detect_missing_fields"
+      },
+      "tool_output": {
+        "missing_fields": [
+          "medications"
+        ],
+        "safety_flags": [
+          {
+            "id": "3147b0cf-d48a-4128-8a81-08a4d1d10205",
+            "category": "missing_data",
+            "message": "medications: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "missing_data_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "dd4f73d8-eb41-4807-bfeb-97ae0da000c5",
+            "reason": "Missing data",
+            "details": "Required field 'medications' not found in source documents.",
+            "section": "medications",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:49.029260Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 4,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions",
+          "detect_conflicts"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Plan next tool: detect_conflicts",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_conflicts"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Next required task: detect_conflicts. Executing tool detect_conflicts.",
+      "chosen_action": "Execute tool: detect_conflicts",
+      "tool_name": "detect_conflicts",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "detect_conflicts"
+      },
+      "tool_output": {
+        "conflicts": [],
+        "safety_flags": [
+          {
+            "id": "3147b0cf-d48a-4128-8a81-08a4d1d10205",
+            "category": "missing_data",
+            "message": "medications: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "missing_data_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "dd4f73d8-eb41-4807-bfeb-97ae0da000c5",
+            "reason": "Missing data",
+            "details": "Required field 'medications' not found in source documents.",
+            "section": "medications",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:49.029260Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 5,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "detect_pending_results",
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Plan next tool: detect_pending_results",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute detect_pending_results"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Next required task: detect_pending_results. Executing tool detect_pending_results.",
+      "chosen_action": "Execute tool: detect_pending_results",
+      "tool_name": "detect_pending_results",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "detect_pending_results"
+      },
+      "tool_output": {
+        "pending_results": [],
+        "safety_flags": [
+          {
+            "id": "3147b0cf-d48a-4128-8a81-08a4d1d10205",
+            "category": "missing_data",
+            "message": "medications: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "missing_data_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "dd4f73d8-eb41-4807-bfeb-97ae0da000c5",
+            "reason": "Missing data",
+            "details": "Required field 'medications' not found in source documents.",
+            "section": "medications",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:49.029260Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 6,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": false,
+        "incomplete_tasks": [
+          "check_interactions"
+        ]
+      },
+      "result": "failed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "replan"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Plan next tool: check_interactions",
+      "tool_name": "planner",
+      "tool_input": {},
+      "tool_output": {},
+      "result": "planned",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "Execute check_interactions"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Next required task: check_interactions. Executing tool check_interactions.",
+      "chosen_action": "Execute tool: check_interactions",
+      "tool_name": "check_interactions",
+      "tool_input": {
+        "patient_id": "missing_medications",
+        "task": "check_interactions"
+      },
+      "tool_output": {
+        "safety_flags": [
+          {
+            "id": "3147b0cf-d48a-4128-8a81-08a4d1d10205",
+            "category": "missing_data",
+            "message": "medications: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+            "severity": "high",
+            "source": "missing_data_detector"
+          }
+        ],
+        "clinician_review_items": [
+          {
+            "id": "dd4f73d8-eb41-4807-bfeb-97ae0da000c5",
+            "reason": "Missing data",
+            "details": "Required field 'medications' not found in source documents.",
+            "section": "medications",
+            "priority": "high",
+            "created_at": "2026-06-03T15:33:49.029260Z"
+          }
+        ]
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "audit"
+    },
+    {
+      "step_number": 7,
+      "reasoning_summary": "Auditor validation",
+      "chosen_action": "audit",
+      "tool_name": "auditor",
+      "tool_input": {},
+      "tool_output": {
+        "audit_failures": [],
+        "audit_passed": true,
+        "all_tasks_complete": true,
+        "incomplete_tasks": []
+      },
+      "result": "passed",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "generate_draft"
+    },
+    {
+      "step_number": 8,
+      "reasoning_summary": "Narrative synthesis complete. Quality score: 92.8",
+      "chosen_action": "synthesize_narrative",
+      "tool_name": "narrative_agent",
+      "tool_input": {},
+      "tool_output": {
+        "synthesis_provider": "mock",
+        "quality": {
+          "overall_score": 92.8,
+          "readability": 100.0,
+          "grounding": 100.0,
+          "safety_compliance": 80.0,
+          "completeness": 85.0,
+          "issues": [
+            "Conflicts:missing_literal",
+            "missing_section:Discharge Medications"
+          ]
+        },
+        "executive_summary_generated": true
+      },
+      "result": "success",
+      "errors": [],
+      "retries": 0,
+      "next_decision": "complete"
+    }
+  ]
+}

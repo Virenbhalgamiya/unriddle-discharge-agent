@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "61c9d89a-ee24-41e4-ac7e-ca4003c06115",
+      "reason": "High-risk interaction",
+      "details": "aspirin + warfarin: Increased bleeding risk",
+      "section": "medications",
+      "priority": "critical",
+      "created_at": "2026-06-03T15:33:45.281131Z"
+    }
+  ]
+}

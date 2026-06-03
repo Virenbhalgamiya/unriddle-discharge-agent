@@ -1,0 +1,43 @@
+{
+  "patient_id": "med_dose",
+  "changes": [
+    {
+      "medication_name": "Aspirin",
+      "change_type": "Continued",
+      "admission_value": "Aspirin 81mg PO daily",
+      "discharge_value": "Aspirin 81mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": false,
+      "evidence_ids": [
+        "36007afc-3364-4515-9d1d-9a715ed7fe18",
+        "ed76fd2b-6bc0-42f7-a328-b0404688a8b9"
+      ]
+    },
+    {
+      "medication_name": "Lisinopril",
+      "change_type": "Dose Changed",
+      "admission_value": "Lisinopril 10mg PO daily",
+      "discharge_value": "Lisinopril 20mg PO daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "9340a8e4-9a05-4650-bc59-95e91f7cda0c",
+        "47a8a017-7513-475b-b331-7e02fecab090"
+      ]
+    },
+    {
+      "medication_name": "Metformin",
+      "change_type": "Removed",
+      "admission_value": "Metformin 500mg PO daily",
+      "discharge_value": null,
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "0a101899-b5f7-4ce2-a3ca-c1a63c761289"
+      ]
+    }
+  ],
+  "admission_count": 3,
+  "discharge_count": 2,
+  "undocumented_changes": 2
+}

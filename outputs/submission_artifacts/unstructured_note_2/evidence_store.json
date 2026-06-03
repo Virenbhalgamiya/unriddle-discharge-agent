@@ -1,0 +1,134 @@
+{
+  "evidence": [
+    {
+      "id": "e976da81-dc05-4a09-a6dd-c8d76ab2f34c",
+      "value": "Received IV antibiotics and oxygen; clinically improved. Assessment: Pneumonia, Hypertension",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014125Z",
+      "confidence": 1.0,
+      "field_name": "hospital_course",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "1219b309-b071-4a35-afe9-6cf13cef6516",
+      "value": "Penicillin Plan: Primary care follow-up in 1 week Discharged on 03/05/2026 in stable condition",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014140Z",
+      "confidence": 1.0,
+      "field_name": "allergies",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "b38a3358-d42e-480c-b052-55a70b1a585b",
+      "value": "03/01/2026",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014204Z",
+      "confidence": 1.0,
+      "field_name": "admission_date",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "2aafb03a-d6a8-4060-8e54-e5eb001564b9",
+      "value": "03/05/2026",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014223Z",
+      "confidence": 1.0,
+      "field_name": "discharge_date",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "443bf1c5-cddf-4c7f-bd61-6dc52386d8f6",
+      "value": "Pneumonia, Hypertension",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014243Z",
+      "confidence": 1.0,
+      "field_name": "principal_diagnosis",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "d1147bc9-7e1c-485c-b61e-f87054ff2d3d",
+      "value": "Primary care follow-up in 1 week",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014263Z",
+      "confidence": 1.0,
+      "field_name": "follow_up_instructions",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "e41bc357-0b09-43ec-ad54-1d90bac19762",
+      "value": "Stable",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014291Z",
+      "confidence": 1.0,
+      "field_name": "discharge_condition",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "df38239b-babd-4dde-b393-40efcd955dab",
+      "value": "Jane Smith",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014306Z",
+      "confidence": 1.0,
+      "field_name": "patient_name",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "0647d6ee-26e8-49fe-8515-866dd0a6ecaa",
+      "value": "02/20/1985",
+      "source_document": "hp_note.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014315Z",
+      "confidence": 1.0,
+      "field_name": "patient_dob",
+      "source_text": "History & Physical \u2014 Jane Smith (DOB 02/20/1985)\nPatient admitted on 03/01/2026 with community-acquired pneumonia.\nHospital Course: Received IV antibiotics and oxygen; clinically improved.\nAssessment: Pneumonia, Hypertension\nAllergies: Penicillin\nPlan: Primary care follow-up in 1 week\nDischarged on 03/05/2026 in stable condition\n"
+    },
+    {
+      "id": "f3447316-33f7-4bec-b4e3-e40a22131d74",
+      "value": "WBC: 11.2 K/uL",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014432Z",
+      "confidence": 1.0,
+      "field_name": "lab_results",
+      "source_text": "WBC: 11.2 K/uL\n"
+    },
+    {
+      "id": "b23390ce-4255-4921-901a-a72187f20c1a",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_admission.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014510Z",
+      "confidence": 1.0,
+      "field_name": "admission_medications",
+      "source_text": "Medications:\n- Lisinopril 10mg PO daily\n"
+    },
+    {
+      "id": "74335ffe-54b9-41ef-88de-b7ce5ea61ab5",
+      "value": "Lisinopril 10mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014580Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Discharge Medications:\n- Lisinopril 10mg PO daily\n- Azithromycin 250mg PO daily\n"
+    },
+    {
+      "id": "5dacdce6-3a61-4507-9757-4675bc9f4478",
+      "value": "Azithromycin 250mg PO daily",
+      "source_document": "medication_discharge.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-03T15:33:51.014588Z",
+      "confidence": 1.0,
+      "field_name": "discharge_medications",
+      "source_text": "Discharge Medications:\n- Lisinopril 10mg PO daily\n- Azithromycin 250mg PO daily\n"
+    }
+  ]
+}

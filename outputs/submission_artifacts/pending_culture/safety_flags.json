@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "dea68809-eee2-4a53-9332-a83ccb975583",
+      "category": "pending_result",
+      "message": "PENDING: Blood culture pending",
+      "severity": "medium",
+      "source": "pending_result_detector"
+    }
+  ]
+}

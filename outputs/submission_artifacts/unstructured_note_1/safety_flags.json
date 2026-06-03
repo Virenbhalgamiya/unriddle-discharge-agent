@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "67b2142f-7c22-48c1-91b9-ed703c45d7ac",
+      "category": "medication_discrepancy",
+      "message": "azithromycin Added: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    }
+  ]
+}

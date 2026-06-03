@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "2102a042-f5a2-4587-8995-17b53d8b96ef",
+      "reason": "Medication discrepancy",
+      "details": "Removed for aspirin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.627647Z"
+    },
+    {
+      "id": "43706088-67c2-49e9-95a5-3fd9842432c0",
+      "reason": "Medication discrepancy",
+      "details": "Removed for metformin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.627742Z"
+    }
+  ]
+}

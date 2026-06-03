@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "fea3722b-64f2-4941-a39f-cc431c36a468",
+      "reason": "Medication discrepancy",
+      "details": "Added for warfarin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:47.060728Z"
+    },
+    {
+      "id": "2ed7cc67-6856-40af-915c-cb288964dc76",
+      "reason": "High-risk interaction",
+      "details": "aspirin + warfarin: Increased bleeding risk",
+      "section": "medications",
+      "priority": "critical",
+      "created_at": "2026-06-03T15:33:47.065185Z"
+    }
+  ]
+}

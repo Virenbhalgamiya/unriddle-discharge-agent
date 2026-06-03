@@ -1,0 +1,20 @@
+{
+  "patient_id": "med_route",
+  "changes": [
+    {
+      "medication_name": "Morphine",
+      "change_type": "Route Changed",
+      "admission_value": "Morphine 10mg PO daily",
+      "discharge_value": "Morphine 10mg IV daily",
+      "reason": "Reason Not Documented",
+      "requires_review": true,
+      "evidence_ids": [
+        "e6feeeab-1e3f-4ea5-9ee4-cf915c47943c",
+        "513396f2-f6a8-4ea3-8c7c-dd3a1a0cd341"
+      ]
+    }
+  ],
+  "admission_count": 1,
+  "discharge_count": 1,
+  "undocumented_changes": 1
+}

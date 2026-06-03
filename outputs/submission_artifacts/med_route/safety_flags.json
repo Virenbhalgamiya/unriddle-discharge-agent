@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "62622a1b-421f-470b-9cfa-0e06f9ccaccb",
+      "category": "medication_discrepancy",
+      "message": "morphine Route Changed: Reason Not Documented",
+      "severity": "high",
+      "source": "medication_reconciliation"
+    }
+  ]
+}

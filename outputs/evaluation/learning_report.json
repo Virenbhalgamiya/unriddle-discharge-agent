@@ -1,0 +1,28 @@
+{
+  "part": 2,
+  "description": "Learning from simulated doctor edits via correction memory",
+  "before_after": {
+    "before": 0.9361414500280956,
+    "after": 0.9386286346344554,
+    "delta": 0.0024871846063598824
+  },
+  "learning_curve": [
+    {
+      "step": 1,
+      "folder": "complete",
+      "reward": 0.9589040206065568,
+      "edit_score": 0.9637959407569939
+    },
+    {
+      "step": 2,
+      "folder": "missing",
+      "reward": 0.9183532486623542,
+      "edit_score": 0.7972270363951474
+    }
+  ],
+  "limitations": [
+    "Simulated doctor policy is rule-based, not a real clinician",
+    "Memory affects formatting only; safety literals unchanged",
+    "Small train split; cold-start remains a risk"
+  ]
+}

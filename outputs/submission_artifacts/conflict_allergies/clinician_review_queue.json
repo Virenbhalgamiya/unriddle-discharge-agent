@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "4b6c7acd-bd25-46d0-b85a-8a48be369126",
+      "reason": "Conflict",
+      "details": "Conflicting values for 'allergies': CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "section": "allergies",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:44.299138Z"
+    }
+  ]
+}

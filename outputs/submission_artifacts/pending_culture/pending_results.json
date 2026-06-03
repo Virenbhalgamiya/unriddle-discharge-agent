@@ -1,0 +1,10 @@
+{
+  "pending_results": [
+    {
+      "description": "Blood culture pending",
+      "source_document": "labs.pdf",
+      "page_number": 1,
+      "status": "PENDING"
+    }
+  ]
+}

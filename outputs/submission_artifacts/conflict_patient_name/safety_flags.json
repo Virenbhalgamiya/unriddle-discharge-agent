@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "32fdcfb2-b1d8-4218-b2b3-89f607b1a382",
+      "category": "conflict",
+      "message": "patient_name: CONFLICT DETECTED \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "conflict_detector"
+    }
+  ]
+}

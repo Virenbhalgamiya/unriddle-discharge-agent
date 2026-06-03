@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "db35a3a1-9782-44af-a964-d62b14e38067",
+      "reason": "Medication discrepancy",
+      "details": "Removed for aspirin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:42.462127Z"
+    },
+    {
+      "id": "a8e6ab80-f494-42e7-a5b4-92618d88f688",
+      "reason": "Medication discrepancy",
+      "details": "Added for warfarin: Reason Not Documented",
+      "section": "medications",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:42.462226Z"
+    },
+    {
+      "id": "e355d923-019b-42ef-8d48-42221875d441",
+      "reason": "Pending critical result",
+      "details": "Pending result: Culture pending",
+      "section": "pending_results",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:42.483480Z"
+    },
+    {
+      "id": "8dd0720e-643f-42af-9971-6c811e933bf7",
+      "reason": "Audit failure",
+      "details": "Evidence e63eefd1-0536-4f8c-8785-d0b57b80826a value 'Patient treated with antibiotics and improved. Patient improving.' not found in progress_note_1.pdf p1",
+      "section": "audit",
+      "priority": "high",
+      "created_at": "2026-06-03T15:33:42.490628Z"
+    }
+  ]
+}

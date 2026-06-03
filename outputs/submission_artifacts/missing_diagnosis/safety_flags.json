@@ -1,0 +1,11 @@
+{
+  "flags": [
+    {
+      "id": "91eb0a58-59c5-4b30-b81f-416096899446",
+      "category": "missing_data",
+      "message": "principal_diagnosis: MISSING \u2013 CLINICIAN REVIEW REQUIRED",
+      "severity": "high",
+      "source": "missing_data_detector"
+    }
+  ]
+}
