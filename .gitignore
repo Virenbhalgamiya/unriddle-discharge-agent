@@ -14,6 +14,7 @@ traces/*
 !traces/.gitkeep
 !traces/submission/
 data/*.db
+data/uploads/
 fixtures/patient_real/*.pdf
 fixtures/official_patients/
 !fixtures/official_patients/README.md

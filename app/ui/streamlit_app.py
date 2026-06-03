@@ -5,7 +5,6 @@ from __future__ import annotations
 import io
 import json
 import sys
-import tempfile
 import zipfile
 from pathlib import Path
 
@@ -21,6 +20,8 @@ from app.llm.config_loader import load_config
 from app.llm.provider_factory import PROVIDERS
 from app.memory.correction_memory import CorrectionMemory
 from app.models.constants import DRAFT_BANNER
+from app.tools.pdf_reader import tesseract_available
+from app.ui.upload_utils import stage_uploaded_pdfs
 
 st.set_page_config(
     page_title="Discharge Summary Agent",
@@ -140,6 +141,10 @@ with st.sidebar:
     st.divider()
     st.subheader("📄 Reviewer Sample")
     st.caption("71-page scanned chart — requires Tesseract OCR (`winget install UB-Mannheim.TesseractOCR`)")
+    if tesseract_available():
+        st.caption("Tesseract: ready")
+    else:
+        st.warning("Tesseract not found — scanned uploads will fail OCR")
     if st.button("Load Reviewer Sample", use_container_width=True):
         REAL_FIXTURE_ROOT.mkdir(parents=True, exist_ok=True)
         pdfs = list(REAL_FIXTURE_ROOT.glob("*.pdf"))
@@ -187,33 +192,33 @@ if run_clicked and patient_source:
     progress_slot = st.empty()
 
     def _pdf_progress(current: int, total: int, filename: str) -> None:
-        progress_slot.info(f"OCR processing **{filename}** — page {current}/{total}")
+        pct = int((current / total) * 100) if total else 0
+        progress_slot.info(f"OCR **{filename}** — page {current}/{total} ({pct}%)")
 
-    with st.spinner("Running agent loop → narrative synthesis..."):
-        try:
+    try:
+        with st.status("Running discharge agent pipeline…", expanded=True) as status:
+            st.write("Planning → tools → audit → narrative synthesis")
             if patient_source == "upload":
-                with tempfile.TemporaryDirectory() as tmpdir:
-                    patient_dir = Path(tmpdir) / "patient"
-                    patient_dir.mkdir()
-                    for f in uploaded_files:
-                        (patient_dir / f.name).write_bytes(f.read())
-                    result = run_discharge_agent(
-                        patient_dir,
-                        llm_provider=selected_provider,
-                        pdf_progress_callback=_pdf_progress,
-                    )
+                patient_dir = stage_uploaded_pdfs(uploaded_files)
+                st.write(f"Staged {len(list(patient_dir.glob('*.pdf')))} PDF(s) for processing")
             else:
                 patient_dir = Path(st.session_state["sample_folder"])
-                result = run_discharge_agent(
-                    patient_dir,
-                    llm_provider=selected_provider,
-                    pdf_progress_callback=_pdf_progress,
-                )
-            progress_slot.empty()
-            st.session_state["result"] = result
-        except Exception as exc:
-            progress_slot.empty()
-            st.error(f"Agent failed: {exc}")
+
+            result = run_discharge_agent(
+                patient_dir,
+                llm_provider=selected_provider,
+                pdf_progress_callback=_pdf_progress,
+            )
+            status.update(label="Agent run complete", state="complete")
+
+        progress_slot.empty()
+        st.session_state["result"] = result
+        st.session_state.pop("run_error", None)
+        st.success(f"Draft ready — patient `{result.patient_id}` ({len(result.evidence_store.items)} evidence items)")
+    except Exception as exc:
+        progress_slot.empty()
+        st.session_state["run_error"] = str(exc)
+        st.error(f"Agent failed: {exc}")
 
 if "result" in st.session_state:
     result = st.session_state["result"]

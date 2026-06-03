@@ -67,15 +67,17 @@ def tesseract_available() -> bool:
 
 def _read_with_pymupdf(path: Path) -> PDFReadResult:
     doc = fitz.open(str(path))
-    pages: list[PDFPage] = []
-    mapping: dict[int, str] = {}
-    for i, page in enumerate(doc):
-        text = page.get_text("text") or ""
-        page_num = i + 1
-        pages.append(PDFPage(page_number=page_num, text=text))
-        mapping[page_num] = text
-    metadata = dict(doc.metadata or {})
-    doc.close()
+    try:
+        pages: list[PDFPage] = []
+        mapping: dict[int, str] = {}
+        for i, page in enumerate(doc):
+            text = page.get_text("text") or ""
+            page_num = i + 1
+            pages.append(PDFPage(page_number=page_num, text=text))
+            mapping[page_num] = text
+        metadata = dict(doc.metadata or {})
+    finally:
+        doc.close()
     return PDFReadResult(
         success=True,
         file_path=str(path),
@@ -131,19 +133,20 @@ def _read_with_ocr(
     total = len(doc)
     ocr_config = "--psm 6"
 
-    for i, page in enumerate(doc):
-        page_num = i + 1
-        if progress_callback:
-            progress_callback(page_num, total, path.name)
+    try:
+        for i, page in enumerate(doc):
+            page_num = i + 1
+            if progress_callback:
+                progress_callback(page_num, total, path.name)
 
-        pixmap = page.get_pixmap(matrix=matrix, alpha=False)
-        img = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
-        text = pytesseract.image_to_string(img, config=ocr_config) or ""
-        pages.append(PDFPage(page_number=page_num, text=text))
-        mapping[page_num] = text
-
-    metadata = dict(doc.metadata or {})
-    doc.close()
+            pixmap = page.get_pixmap(matrix=matrix, alpha=False)
+            img = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
+            text = pytesseract.image_to_string(img, config=ocr_config) or ""
+            pages.append(PDFPage(page_number=page_num, text=text))
+            mapping[page_num] = text
+        metadata = dict(doc.metadata or {})
+    finally:
+        doc.close()
 
     if any(p.text.strip() for p in pages):
         return PDFReadResult(
@@ -164,6 +167,41 @@ def _read_with_ocr(
         parser_used="pymupdf+ocr",
         errors=["OCR produced no text across all pages"],
     )
+
+
+def _wrap_file_progress(callback: ProgressCallback, doc_name: str) -> ProgressCallback:
+    def wrapped(current: int, total: int, _filename: str) -> None:
+        callback(current, total, doc_name)
+
+    return wrapped
+
+
+def _run_parser_with_timeout(
+    parser_fn: Callable[[Path], PDFReadResult],
+    pdf_path: Path,
+    timeout_seconds: int,
+) -> PDFReadResult:
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(parser_fn, pdf_path)
+        return future.result(timeout=timeout_seconds)
+
+
+def _run_ocr(
+    pdf_path: Path,
+    ocr_dpi_scale: float,
+    progress_callback: Optional[ProgressCallback],
+    ocr_timeout_seconds: int,
+) -> PDFReadResult:
+    """
+    Run OCR on the main thread when a progress callback is supplied (e.g. Streamlit UI).
+    Background-thread OCR cannot safely invoke Streamlit widgets.
+    """
+    if progress_callback is not None:
+        return _read_with_ocr(pdf_path, ocr_dpi_scale, progress_callback)
+
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(_read_with_ocr, pdf_path, ocr_dpi_scale, None)
+        return future.result(timeout=ocr_timeout_seconds)
 
 
 def read_pdf(
@@ -194,9 +232,7 @@ def read_pdf(
             ("pdfplumber", _read_with_pdfplumber),
         ]:
             try:
-                with ThreadPoolExecutor(max_workers=1) as executor:
-                    future = executor.submit(parser_fn, pdf_path)
-                    result = future.result(timeout=timeout_seconds)
+                result = _run_parser_with_timeout(parser_fn, pdf_path, timeout_seconds)
                 if result.pages and any(p.text.strip() for p in result.pages):
                     result.retries = retries
                     return result
@@ -209,14 +245,12 @@ def read_pdf(
 
         if ocr_enabled:
             try:
-                with ThreadPoolExecutor(max_workers=1) as executor:
-                    future = executor.submit(
-                        _read_with_ocr,
-                        pdf_path,
-                        ocr_dpi_scale,
-                        progress_callback,
-                    )
-                    result = future.result(timeout=ocr_timeout_seconds)
+                result = _run_ocr(
+                    pdf_path,
+                    ocr_dpi_scale,
+                    progress_callback,
+                    ocr_timeout_seconds,
+                )
                 if result.success:
                     result.retries = retries
                     return result
@@ -258,9 +292,7 @@ def load_patient_folder(
         return documents, [f"No PDF files in {folder_path}"]
 
     for pdf in pdf_files:
-        file_callback: Optional[ProgressCallback] = None
-        if progress_callback:
-            file_callback = lambda cur, total, name=pdf.name, fn=progress_callback: fn(cur, total, name)
+        file_callback = _wrap_file_progress(progress_callback, pdf.name) if progress_callback else None
         result = read_pdf(
             pdf,
             max_retries=max_retries,
